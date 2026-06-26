@@ -1,0 +1,14 @@
+1998: 1
+2006: 1
+2012: 1
+2015: 1
+2019: 1
+corolla: 1
+fiesta: 1
+focus: 1
+ford: 2
+hyundai: 1
+mitsubishi: 1
+outlander: 1
+toyota: 1
+tucson: 1

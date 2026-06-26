@@ -1,0 +1,17 @@
+[
+  {
+    "name": "zero_shot_summary",
+    "prompt": "Task:\nSummarise the commercial risks of deploying a chatbot in customer support.\n\nContext:\nA retail company wants to use an LLM chatbot for first-line support.\n\nConstraints:\n- Use plain language\n- Mention privacy, accuracy, and escalation\n\nRespond with:\n1. A concise answer.\n2. Your reasoning steps.\n3. Any assumptions or limitations.\n",
+    "type": "chain-of-thought style prompt"
+  },
+  {
+    "name": "cot_planning",
+    "prompt": "Task:\nPlan step by step how to evaluate a simple AI agent.\n\nContext:\nThe agent receives observations and chooses actions in a small environment.\n\nConstraints:\n- Include metrics\n- Include failure cases\n- Keep the plan testable\n\nRespond with:\n1. A concise answer.\n2. Your reasoning steps.\n3. Any assumptions or limitations.\n",
+    "type": "chain-of-thought style prompt"
+  },
+  {
+    "name": "few_shot_classification",
+    "prompt": "Classify each request as factual, creative, or planning.\nExample: 'Write a poem' -> creative\nExample: 'What is reinforcement learning?' -> factual\nRequest: 'Design an AI coursework plan' ->",
+    "type": "few-shot prompt"
+  }
+]

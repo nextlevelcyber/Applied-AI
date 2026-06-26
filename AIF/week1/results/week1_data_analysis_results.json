@@ -1,0 +1,429 @@
+{
+  "profiles": [
+    {
+      "file": "OrderData.csv",
+      "rows": 43,
+      "columns": 7,
+      "column_names": [
+        "OrderDate",
+        "Region",
+        "Rep",
+        "Item",
+        "Units",
+        "Unit Cost",
+        "Total"
+      ],
+      "missing_values": {
+        "OrderDate": 0,
+        "Region": 0,
+        "Rep": 0,
+        "Item": 0,
+        "Units": 0,
+        "Unit Cost": 0,
+        "Total": 43
+      },
+      "numeric_summary": {
+        "Units": {
+          "count": 43.0,
+          "mean": 49.326,
+          "std": 30.078,
+          "min": 2.0,
+          "25%": 27.5,
+          "50%": 53.0,
+          "75%": 74.5,
+          "max": 96.0
+        },
+        "Unit Cost": {
+          "count": 43.0,
+          "mean": 20.309,
+          "std": 47.345,
+          "min": 1.29,
+          "25%": 3.99,
+          "50%": 4.99,
+          "75%": 17.99,
+          "max": 275.0
+        },
+        "Total": {
+          "count": 0.0,
+          "mean": NaN,
+          "std": NaN,
+          "min": NaN,
+          "25%": NaN,
+          "50%": NaN,
+          "75%": NaN,
+          "max": NaN
+        }
+      }
+    },
+    {
+      "file": "forecast_data.csv",
+      "rows": 16,
+      "columns": 17,
+      "column_names": [
+        "Name",
+        "Date time",
+        "Maximum Temperature",
+        "Minimum Temperature",
+        "Temperature",
+        "Wind Chill",
+        "Heat Index",
+        "Chance Precipitation (%)",
+        "Precipitation",
+        "Snow",
+        "Snow Depth",
+        "Wind Speed",
+        "Wind Gust",
+        "Visibility",
+        "Cloud Cover",
+        "Relative Humidity",
+        "Conditions"
+      ],
+      "missing_values": {
+        "Name": 0,
+        "Date time": 0,
+        "Maximum Temperature": 0,
+        "Minimum Temperature": 0,
+        "Temperature": 0,
+        "Wind Chill": 0,
+        "Heat Index": 16,
+        "Chance Precipitation (%)": 0,
+        "Precipitation": 0,
+        "Snow": 0,
+        "Snow Depth": 0,
+        "Wind Speed": 0,
+        "Wind Gust": 0,
+        "Visibility": 0,
+        "Cloud Cover": 0,
+        "Relative Humidity": 0,
+        "Conditions": 0
+      },
+      "numeric_summary": {
+        "Maximum Temperature": {
+          "count": 16.0,
+          "mean": 41.894,
+          "std": 5.542,
+          "min": 31.2,
+          "25%": 38.525,
+          "50%": 41.25,
+          "75%": 45.95,
+          "max": 51.7
+        },
+        "Minimum Temperature": {
+          "count": 16.0,
+          "mean": 35.975,
+          "std": 5.882,
+          "min": 28.3,
+          "25%": 32.825,
+          "50%": 34.9,
+          "75%": 37.2,
+          "max": 47.9
+        },
+        "Temperature": {
+          "count": 16.0,
+          "mean": 38.788,
+          "std": 5.596,
+          "min": 30.9,
+          "25%": 36.25,
+          "50%": 38.25,
+          "75%": 40.35,
+          "max": 50.0
+        },
+        "Wind Chill": {
+          "count": 16.0,
+          "mean": 29.369,
+          "std": 6.107,
+          "min": 21.5,
+          "25%": 26.1,
+          "50%": 28.1,
+          "75%": 29.975,
+          "max": 42.1
+        },
+        "Heat Index": {
+          "count": 0.0,
+          "mean": NaN,
+          "std": NaN,
+          "min": NaN,
+          "25%": NaN,
+          "50%": NaN,
+          "75%": NaN,
+          "max": NaN
+        },
+        "Chance Precipitation (%)": {
+          "count": 16.0,
+          "mean": 50.85,
+          "std": 26.768,
+          "min": 14.3,
+          "25%": 41.675,
+          "50%": 47.5,
+          "75%": 48.725,
+          "max": 100.0
+        },
+        "Precipitation": {
+          "count": 16.0,
+          "mean": 0.119,
+          "std": 0.112,
+          "min": 0.0,
+          "25%": 0.01,
+          "50%": 0.12,
+          "75%": 0.18,
+          "max": 0.36
+        },
+        "Snow": {
+          "count": 16.0,
+          "mean": 0.225,
+          "std": 0.484,
+          "min": 0.0,
+          "25%": 0.0,
+          "50%": 0.0,
+          "75%": 0.1,
+          "max": 1.6
+        },
+        "Snow Depth": {
+          "count": 16.0,
+          "mean": 0.338,
+          "std": 0.675,
+          "min": 0.0,
+          "25%": 0.0,
+          "50%": 0.0,
+          "75%": 0.1,
+          "max": 2.0
+        },
+        "Wind Speed": {
+          "count": 16.0,
+          "mean": 10.731,
+          "std": 4.385,
+          "min": 5.0,
+          "25%": 6.5,
+          "50%": 11.6,
+          "75%": 14.075,
+          "max": 19.9
+        },
+        "Wind Gust": {
+          "count": 16.0,
+          "mean": 30.775,
+          "std": 10.352,
+          "min": 14.8,
+          "25%": 24.8,
+          "50%": 30.4,
+          "75%": 37.25,
+          "max": 52.6
+        },
+        "Visibility": {
+          "count": 16.0,
+          "mean": 5.594,
+          "std": 5.631,
+          "min": 0.0,
+          "25%": 0.175,
+          "50%": 4.65,
+          "75%": 9.9,
+          "max": 15.0
+        },
+        "Cloud Cover": {
+          "count": 16.0,
+          "mean": 76.425,
+          "std": 27.823,
+          "min": 6.0,
+          "25%": 60.675,
+          "50%": 87.8,
+          "75%": 93.9,
+          "max": 100.0
+        },
+        "Relative Humidity": {
+          "count": 16.0,
+          "mean": 89.1,
+          "std": 4.355,
+          "min": 78.6,
+          "25%": 86.125,
+          "50%": 90.85,
+          "75%": 92.3,
+          "max": 94.3
+        }
+      }
+    },
+    {
+      "file": "Iris.csv",
+      "rows": 150,
+      "columns": 6,
+      "column_names": [
+        "Id",
+        "SepalLengthCm",
+        "SepalWidthCm",
+        "PetalLengthCm",
+        "PetalWidthCm",
+        "Species"
+      ],
+      "missing_values": {
+        "Id": 0,
+        "SepalLengthCm": 0,
+        "SepalWidthCm": 0,
+        "PetalLengthCm": 0,
+        "PetalWidthCm": 0,
+        "Species": 0
+      },
+      "numeric_summary": {
+        "Id": {
+          "count": 150.0,
+          "mean": 75.5,
+          "std": 43.445,
+          "min": 1.0,
+          "25%": 38.25,
+          "50%": 75.5,
+          "75%": 112.75,
+          "max": 150.0
+        },
+        "SepalLengthCm": {
+          "count": 150.0,
+          "mean": 5.843,
+          "std": 0.828,
+          "min": 4.3,
+          "25%": 5.1,
+          "50%": 5.8,
+          "75%": 6.4,
+          "max": 7.9
+        },
+        "SepalWidthCm": {
+          "count": 150.0,
+          "mean": 3.054,
+          "std": 0.434,
+          "min": 2.0,
+          "25%": 2.8,
+          "50%": 3.0,
+          "75%": 3.3,
+          "max": 4.4
+        },
+        "PetalLengthCm": {
+          "count": 150.0,
+          "mean": 3.759,
+          "std": 1.764,
+          "min": 1.0,
+          "25%": 1.6,
+          "50%": 4.35,
+          "75%": 5.1,
+          "max": 6.9
+        },
+        "PetalWidthCm": {
+          "count": 150.0,
+          "mean": 1.199,
+          "std": 0.763,
+          "min": 0.1,
+          "25%": 0.3,
+          "50%": 1.3,
+          "75%": 1.8,
+          "max": 2.5
+        }
+      }
+    },
+    {
+      "file": "Housing.csv",
+      "rows": 545,
+      "columns": 13,
+      "column_names": [
+        "price",
+        "area",
+        "bedrooms",
+        "bathrooms",
+        "stories",
+        "mainroad",
+        "guestroom",
+        "basement",
+        "hotwaterheating",
+        "airconditioning",
+        "parking",
+        "prefarea",
+        "furnishingstatus"
+      ],
+      "missing_values": {
+        "price": 0,
+        "area": 0,
+        "bedrooms": 0,
+        "bathrooms": 0,
+        "stories": 0,
+        "mainroad": 0,
+        "guestroom": 0,
+        "basement": 0,
+        "hotwaterheating": 0,
+        "airconditioning": 0,
+        "parking": 0,
+        "prefarea": 0,
+        "furnishingstatus": 0
+      },
+      "numeric_summary": {
+        "price": {
+          "count": 545.0,
+          "mean": 4766729.248,
+          "std": 1870439.616,
+          "min": 1750000.0,
+          "25%": 3430000.0,
+          "50%": 4340000.0,
+          "75%": 5740000.0,
+          "max": 13300000.0
+        },
+        "area": {
+          "count": 545.0,
+          "mean": 5150.541,
+          "std": 2170.141,
+          "min": 1650.0,
+          "25%": 3600.0,
+          "50%": 4600.0,
+          "75%": 6360.0,
+          "max": 16200.0
+        },
+        "bedrooms": {
+          "count": 545.0,
+          "mean": 2.965,
+          "std": 0.738,
+          "min": 1.0,
+          "25%": 2.0,
+          "50%": 3.0,
+          "75%": 3.0,
+          "max": 6.0
+        },
+        "bathrooms": {
+          "count": 545.0,
+          "mean": 1.286,
+          "std": 0.502,
+          "min": 1.0,
+          "25%": 1.0,
+          "50%": 1.0,
+          "75%": 2.0,
+          "max": 4.0
+        },
+        "stories": {
+          "count": 545.0,
+          "mean": 1.806,
+          "std": 0.867,
+          "min": 1.0,
+          "25%": 1.0,
+          "50%": 2.0,
+          "75%": 2.0,
+          "max": 4.0
+        },
+        "parking": {
+          "count": 545.0,
+          "mean": 0.694,
+          "std": 0.862,
+          "min": 0.0,
+          "25%": 0.0,
+          "50%": 0.0,
+          "75%": 1.0,
+          "max": 3.0
+        }
+      }
+    }
+  ],
+  "order_region_summary_file": "week1_order_region_summary.csv",
+  "iris_species_means_file": "week1_iris_species_means.csv",
+  "housing_summary": {
+    "average_price": 4766729.25,
+    "median_price": 4340000.0,
+    "average_area": 5150.54,
+    "price_area_correlation": 0.536
+  },
+  "forecast_summary": {
+    "location": "Middlesbrough, England, United Kingdom",
+    "rows": 16,
+    "mean_temperature": 38.79,
+    "max_wind_speed": 19.9,
+    "rainy_days": 4
+  }
+}

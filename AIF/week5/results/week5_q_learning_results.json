@@ -1,0 +1,23 @@
+{
+  "q_table": {
+    "start": {
+      "left": 5.012,
+      "right": 8.0
+    },
+    "middle": {
+      "left": 6.187,
+      "right": 10.0
+    },
+    "goal": {
+      "left": 0.0,
+      "right": 0.0
+    }
+  },
+  "policy": {
+    "start": "right",
+    "middle": "right",
+    "goal": "left"
+  },
+  "average_reward_last_25": 8.76,
+  "episodes": 300
+}

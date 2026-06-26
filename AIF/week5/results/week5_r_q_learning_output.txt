@@ -1,0 +1,11 @@
+Q-table
+        left right
+start  5.185     8
+middle 6.165    10
+goal   0.000     0
+
+Learned policy
+  start  middle    goal 
+"right" "right"  "left" 
+
+Average reward last 25 episodes: 8.6 

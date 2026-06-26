@@ -1,0 +1,82 @@
+{
+  "python_basics": {
+    "arithmetic": {
+      "a": 12,
+      "b": 5,
+      "sum": 17,
+      "product": 60,
+      "power": 248832
+    },
+    "string_slice": "Artificial",
+    "list_first_last": [
+      "agent",
+      "environment"
+    ],
+    "dictionary": {
+      "agent": "entity that perceives and acts"
+    }
+  },
+  "reflex_agent_simulation": {
+    "trace": [
+      {
+        "step": 1,
+        "percept": [
+          "A",
+          "Dirty"
+        ],
+        "action": "Suck",
+        "reward": 10
+      },
+      {
+        "step": 2,
+        "percept": [
+          "A",
+          "Clean"
+        ],
+        "action": "Right",
+        "reward": -1
+      },
+      {
+        "step": 3,
+        "percept": [
+          "B",
+          "Dirty"
+        ],
+        "action": "Suck",
+        "reward": 10
+      },
+      {
+        "step": 4,
+        "percept": [
+          "B",
+          "Clean"
+        ],
+        "action": "Left",
+        "reward": -1
+      },
+      {
+        "step": 5,
+        "percept": [
+          "A",
+          "Clean"
+        ],
+        "action": "Right",
+        "reward": -1
+      },
+      {
+        "step": 6,
+        "percept": [
+          "B",
+          "Clean"
+        ],
+        "action": "Left",
+        "reward": -1
+      }
+    ],
+    "total_reward": 16,
+    "final_dirt": {
+      "A": false,
+      "B": false
+    }
+  }
+}

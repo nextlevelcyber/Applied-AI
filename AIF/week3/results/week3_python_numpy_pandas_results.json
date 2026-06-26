@@ -1,0 +1,53 @@
+{
+  "control_flow_examples": [
+    "Eligible adult citizen",
+    "Adult non-UK citizen",
+    "Under 18"
+  ],
+  "grade_examples": {
+    "45": "Needs improvement",
+    "55": "Satisfactory",
+    "65": "Very good",
+    "75": "Excellent"
+  },
+  "volume_functions": {
+    "sphere_radius_3": 113.097,
+    "cylinder_radius_2_height_5": 62.832,
+    "cone_radius_2_height_5": 20.944
+  },
+  "numpy": {
+    "matrix": [
+      [
+        2.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        3.0,
+        2.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "determinant": -1.0,
+    "eigenvalues": [
+      3.9122,
+      1.2865,
+      -0.1987
+    ],
+    "linear_system_solution": [
+      6.0,
+      15.0,
+      -23.0
+    ]
+  },
+  "pandas": {
+    "class_average": 64.9,
+    "top_student": "D",
+    "output_file": "week3_student_marks.csv"
+  }
+}

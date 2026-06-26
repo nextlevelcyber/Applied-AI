@@ -1,0 +1,12 @@
+Week 1 R basics completed
+Objects created: order, region_summary, iris_data, species_means
+
+   Region Units    Total
+1 Central  1199 11139.07
+2    East   691  6002.09
+3    West   231  2486.72
+
+          Species SepalLengthCm SepalWidthCm PetalLengthCm PetalWidthCm
+1     Iris-setosa         5.006        3.418         1.464        0.244
+2 Iris-versicolor         5.936        2.770         4.260        1.326
+3  Iris-virginica         6.588        2.974         5.552        2.026

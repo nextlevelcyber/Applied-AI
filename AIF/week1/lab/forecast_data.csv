@@ -1,0 +1,17 @@
+Name,Date time,Maximum Temperature,Minimum Temperature,Temperature,Wind Chill,Heat Index,Chance Precipitation (%),Precipitation,Snow,Snow Depth,Wind Speed,Wind Gust,Visibility,Cloud Cover,Relative Humidity,Conditions
+"Middlesbrough, England, United Kingdom",01/19/2021,48.3,47.7,48.1,42.1,,100,0.17,0,0,14.5,30.6,3.8,100,92.2,"Rain, Overcast"
+"Middlesbrough, England, United Kingdom",01/20/2021,51.7,47.9,50,42.1,,100,0.22,0,0,14,36.9,5.3,99.1,89.2,"Rain, Overcast"
+"Middlesbrough, England, United Kingdom",01/21/2021,45.8,38.4,40.3,28.6,,100,0.13,0,0,19.9,52.6,4.9,85.1,84.4,"Rain, Overcast"
+"Middlesbrough, England, United Kingdom",01/22/2021,41.6,33.5,39.1,28,,42.9,0.12,0,0,14,34.9,0,93.5,84.3,Overcast
+"Middlesbrough, England, United Kingdom",01/23/2021,38,30.8,33.4,24.6,,23.7,0,0.4,0,6.6,17.4,14.2,28.8,78.6,"Snow, Partially cloudy"
+"Middlesbrough, England, United Kingdom",01/24/2021,31.2,30.3,30.9,24.2,,19,0,0.4,0,6.5,14.8,0.2,6,85.6,Snow
+"Middlesbrough, England, United Kingdom",01/25/2021,36.9,28.6,32.7,23.1,,14.3,0.21,1.2,1.5,6.5,26.2,0,62.8,93.8,"Snow, Partially cloudy"
+"Middlesbrough, England, United Kingdom",01/26/2021,34.2,28.3,31.4,21.5,,47.5,0.3,1.6,2,6.2,30.2,0,84.1,91.3,"Snow, Overcast"
+"Middlesbrough, England, United Kingdom",01/27/2021,40.4,34.6,37.7,26.6,,47.5,0,0,1.5,12.4,38.3,0.4,53.5,92.6,Partially cloudy
+"Middlesbrough, England, United Kingdom",01/28/2021,46.4,34.4,37.9,28.8,,42.9,0.12,0,0.4,8.4,38.9,9.8,95.1,91.6,Overcast
+"Middlesbrough, England, United Kingdom",01/29/2021,49,42.5,46.7,37.1,,42.9,0.36,0,0,14.3,43.6,4.4,85.5,91.5,Overcast
+"Middlesbrough, England, United Kingdom",01/30/2021,44.9,35.2,40.5,28.2,,52.4,0.01,0,0,11.1,29.5,15,54.3,86.3,"Rain, Partially cloudy"
+"Middlesbrough, England, United Kingdom",01/31/2021,41.1,33.5,37.2,26.9,,47.5,0.03,0,0,5,20.6,10.2,92,90.4,Overcast
+"Middlesbrough, England, United Kingdom",02/01/2021,40.7,36.7,38.7,31.1,,47.5,0.13,0,0,5.7,15.7,6.2,90.1,94.3,Overcast
+"Middlesbrough, England, United Kingdom",02/02/2021,41.4,36.4,38.6,29.6,,47.5,0.01,0,0,12.1,32,15,92.9,86.7,Overcast
+"Middlesbrough, England, United Kingdom",02/03/2021,38.7,36.8,37.4,27.4,,38,0.09,0,0,14.5,30.2,0.1,100,92.8,Overcast

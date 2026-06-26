@@ -1,0 +1,17 @@
+Database: CIS4044-N-SDI-OPENMETEO-PARTIAL.db
+
+Table: cities
+Rows: 4
+Columns: id, name, country_id, latlong
+
+Table: countries
+Rows: 2
+Columns: id, name, timezone
+
+Table: daily_weather_entries
+Rows: 7308
+Columns: id, date, min_temp, max_temp, mean_temp, precipitation, city_id
+
+Table: sqlite_sequence
+Rows: 3
+Columns: name, seq
