@@ -1,0 +1,1 @@
+requests is installed. Use this week to practise reading API documentation, checking response status codes, and saving safe evidence separate from ICA code.

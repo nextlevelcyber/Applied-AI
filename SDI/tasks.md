@@ -19,11 +19,31 @@ Action: re-check Blackboard after the formal submission area is published, or as
 - [ ] Confirm the SDI Component 2 ICA deadline.
 - [ ] Read the ICA specification fully before starting assessed work.
 - [ ] Keep assessed ICA work separate from AI-assisted notes and practice.
-- [ ] Complete Week 5 practice: file reading/writing.
-- [ ] Complete Week 6 practice: inspect SQLite database schema and row counts.
-- [ ] Complete Week 7 practice: joins and grouped calculations using the example database.
-- [ ] Review Week 9 before chart work: Matplotlib.
-- [ ] Review Week 10 before API work: Open-Meteo / Web APIs.
+- [x] Complete Week 1 practice: Python introduction.
+- [x] Complete Week 2 practice: flow control.
+- [x] Complete Week 3 practice: functions and sequence types.
+- [x] Complete Week 4 practice: consolidation.
+- [x] Complete Week 5 practice: file reading/writing.
+- [x] Complete Week 6 practice: inspect SQLite database schema and row counts.
+- [x] Complete Week 7 practice: joins and grouped calculations using the example database.
+- [x] Complete Week 8 practice: SQLite recap with a toy database.
+- [x] Complete Week 9 practice: Matplotlib charts.
+- [x] Complete Week 10 practice: public Web API request with `requests`.
+- [ ] Complete Test Yourself 8 on Blackboard.
+
+## Lab Practice Record
+
+See `lab_status.md` and each `week*/lab_record.md` file for dated evidence.
+
+## ICA Preparation
+
+- [x] Create ICA work plan.
+- [ ] Manually implement Phase 1 in the official starter project.
+- [ ] Manually implement Phase 2 in the official starter project.
+- [ ] Manually implement Phase 3 in the official starter project.
+- [ ] Manually prepare black-box testing evidence.
+- [ ] Manually write final report.
+- [ ] Package final source code, report, and testing evidence.
 
 ## Formal ICA Work Boundary
 

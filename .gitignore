@@ -2,3 +2,7 @@
 .vscode/
 ~$*
 AIF/_extracted_text/
+__pycache__/
+.venv/
+venv/
+**/.matplotlib_cache/

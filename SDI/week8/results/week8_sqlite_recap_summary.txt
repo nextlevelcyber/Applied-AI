@@ -1,0 +1,4 @@
+Department project summary
+Analytics: 2 projects, budget 34000.00
+Operations: 1 projects, budget 15000.00
+Support: 1 projects, budget 9000.00

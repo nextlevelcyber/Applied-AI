@@ -1,0 +1,30 @@
+{
+  "classified_marks": [
+    {
+      "mark": 82,
+      "classification": "distinction"
+    },
+    {
+      "mark": 64,
+      "classification": "merit"
+    },
+    {
+      "mark": 58,
+      "classification": "pass"
+    },
+    {
+      "mark": 47,
+      "classification": "refer"
+    },
+    {
+      "mark": 101,
+      "classification": "invalid"
+    },
+    {
+      "mark": -5,
+      "classification": "invalid"
+    }
+  ],
+  "valid_count": 4,
+  "valid_average": 62.75
+}

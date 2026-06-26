@@ -1,0 +1,10 @@
+{
+  "ticket_count": 5,
+  "open_ticket_count": 2,
+  "category_hours": {
+    "setup": 2.5,
+    "python": 5.5,
+    "database": 4.0
+  },
+  "summary_csv": "/Users/hualee/workspace/Applied-AI/SDI/week4/results/week4_ticket_summary.csv"
+}
