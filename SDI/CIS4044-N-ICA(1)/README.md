@@ -7,7 +7,7 @@ This project implements the three ICA programming phases for the Open-Meteo hist
 - `ICA/phase_1.py`: SQLite queries for countries, cities, temperature, precipitation, and extra analytical queries.
 - `ICA/phase_2.py`: Matplotlib chart generation from the SQLite database.
 - `ICA/phase_3.py`: Open-Meteo archive API retrieval and SQLite storage.
-- `ICA/common.py`: shared database connection, validation, and city helper logic.
+- `ICA/common.py`: shared connection, validation, and city helper logic.
 - `ICA/main.py`: single command-line/menu entry point.
 - `tests/test_weather_app.py`: automated regression tests.
 - `charts/`: generated chart evidence.
@@ -88,3 +88,4 @@ python3 -m unittest discover -s tests -v
 ```
 
 The tests cover Phase 1 query outputs, input validation, Phase 2 chart file creation, Phase 3 JSON parsing, network error handling, and database replacement writes. Phase 3 network tests use mocks so the test suite does not depend on the live Open-Meteo service.
+

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.matplotlib-cache/
+~$*.docx
+node_modules
+*.inspect.ndjson
