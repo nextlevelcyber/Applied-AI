@@ -1,0 +1,1703 @@
+[
+  {
+    "label": "week0_reading",
+    "target": "week0/reading",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/file/_3537273_1",
+    "directName": "Improving_decision_making_in_organisations.pdf",
+    "files": [
+      {
+        "name": "Improving_decision_making_in_organisations.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537273-dt-content-rid-30630136_1/xid-30630136_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nLearning Materials\n\nNext\nImproving_decision_making_in_organisations.pdf\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nImproving_decision_making_in_organisations.pdf\nContents\nWeek 0 - Reading\nImproving_decision_making_in_organisations.pdf\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n×",
+    "saved": [
+      {
+        "name": "Improving_decision_making_in_organisations.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537273-dt-content-rid-30630136_1/xid-30630136_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week1_lecture",
+    "target": "week1/lecture",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537274_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Week 1-Lecture 1 - Power BI Introduction and ICA Briefing.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537318-dt-content-rid-30629828_1/xid-30629828_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nLecture Material\nLab Session - Introduction to Power BI\nLecture Recording\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLecture Material\n\nHere you can find the slides of the Lecture.\n\nThe recording will be uploaded after the live lecture.\n\nWeek 1-Lecture 1 - Power BI Introduction and ICA Briefing.pptx\n×",
+    "saved": [
+      {
+        "name": "Week 1-Lecture 1 - Power BI Introduction and ICA Briefing.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537318-dt-content-rid-30629828_1/xid-30629828_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week1_lab",
+    "target": "week1/lab",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537275_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "_PBI-01 Welcome to PowerBI.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629833_1/xid-30629833_1"
+      },
+      {
+        "name": "Getting_Started_With_PowerBI.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629836_1/xid-30629836_1"
+      },
+      {
+        "name": "superstore_dataset_2011-2015.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629837_1/xid-30629837_1"
+      },
+      {
+        "name": "covid.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629838_1/xid-30629838_1"
+      },
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629839_1/xid-30629839_1"
+      },
+      {
+        "name": "PBi01 Covid and Superstore by Mansha Nawaz.pbix",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629840_1/xid-30629840_1"
+      },
+      {
+        "name": "My 1st BI Dashboard - Melanie Barker.pbix",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629842_1/xid-30629842_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://teesside.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31069a39-7616-42b8-9d48-af1500c475d3",
+        "text": "Click here to watch the Lab Introduction Video"
+      },
+      {
+        "href": "https://appsanywhere.tees.ac.uk/",
+        "text": "AppsAnywhere"
+      },
+      {
+        "href": "https://appsanywhere.tees.ac.uk/",
+        "text": "https://appsanywhere.tees.ac.uk/"
+      },
+      {
+        "href": "https://appsanywhere.tees.ac.uk/",
+        "text": "AppsAnywhere"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=AuYzsfXKkbM&t=611s",
+        "text": "Microsoft PowerBI Tutorial Video from Beginning to Pro 1hr"
+      },
+      {
+        "href": "https://powerbi.microsoft.com/en-us/guided-learning/",
+        "text": "Guided Learning"
+      },
+      {
+        "href": "https://powerbi.microsoft.com/en-us/guided-learning/",
+        "text": "Follow Microsoft courses of videos and articles that walk you through how to accomplish common tasks with Power BI."
+      },
+      {
+        "href": "https://powerbi.microsoft.com/en-us/documentation/powerbi-sample-datasets/",
+        "text": "Samples"
+      },
+      {
+        "href": "https://powerbi.microsoft.com/en-us/documentation/powerbi-sample-datasets/",
+        "text": "Review examples of dashboards, reports, and desktop files, and see how some of our partners are putting Power BI to use."
+      },
+      {
+        "href": "https://powerbi.microsoft.com/en-us/documentation/powerbi-landing-page/",
+        "text": "Documentation"
+      },
+      {
+        "href": "https://powerbi.microsoft.com/en-us/documentation/powerbi-landing-page/",
+        "text": "View in-depth articles for all of Power BI’s tools and features, from getting started to advanced"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nLecture Material\nLab Session - Introduction to Power BI\nLecture Recording\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLab Session - Introduction to Power BI\n\nWelcome to the first lab session of the module\n\n_PBI-01 Welcome to PowerBI.docx\n\nIn this lesson, you will learn how to use a few tools in Power BI for creating reports.\n\nMake sure you watch the video before you start the task. It will give you an introduction to the module and to Power BI.\n\nIf you have any questions, please do not hesitate to contact us during the sessions.\n\nWe hope you enjoy the lesson.\n\nTU PowerBI Team\n\n1) Lab Introduction - Video 1\n\nBefore starting the first task, watch this short video.\n\nI included a quick overview of the module and I showed the first steps to get started with Power BI.\n\nClick here to watch the Lab Introduction Video\n\n2) Workbook - Introductive task on Power BI\n\nIn this task, you will see how easy it is to create easy BI Reports [BI Dashboard] in Power BI!\n\n(If you need to install Power BI on your home machine, check the Installation Guide under Module Resources)\n\nIf you are using a TU Lab machine, you can find Power BI through AppsAnywhere: https://appsanywhere.tees.ac.uk/\n\nYour student university email has been registered for access to Power BI through AppsAnywhere. Inform your tutor if your email has not been registered, and we will contact IT Help to request activation for your Power BI license. Tutor Instructions: Email IT Help requesting Power BI activation for student: [insert student email].\n\n[Lab: My 1st BI Dashbaord - Superstore]\n\nGetting_Started_With_PowerBI.pdf\n\n\n\n\nsuperstore_dataset_2011-2015.csv\n\n\n\n\nFor the last activity of today's session, you will also need the file below\n\n[Lab: My 2nd BI Dashboard - Covid]\n\ncovid.csv\n\n\n\n\n[Lab: My 2nd BI Dashboard - Covid - Axis Challenge]\n\nOnce you have completed the last activity on the COVID dataset, can you re-create the chart below? You can try to do this yourself and do feel free to consult the guide provided in the post lab section below.\n\nThe main challenge will be to display all the labels on the x-axis (from 1 to 18). Can you do that?\n\n\n\n\n\n\n\nExtension Tasks\n\nAs a PowerBI Developer: The following key resources will help you quickly become a proficient Developer in Business Intelligence via Microsoft PowerBI. Go through them to find out more about Power BI\n\nMicrosoft PowerBI Tutorial Video from Beginning to Pro 1hr\nMicrosoft Guided Learning\nFollow Microsoft courses of videos and articles that walk you through how to accomplish common tasks with Power BI.\nSamples\nReview examples of dashboards, reports, and desktop files, and see how some of our partners are putting Power BI to use.\nDocumentation\nView in-depth articles for all of Power BI’s tools and features, from getting started to advanced\n\nPBi Post Lab Self-Study Guide: PowerBI Tips n Tricks from your PowerBI Tutors\n\nCongratulations on building your First BI Dashboard - Supe",
+    "saved": [
+      {
+        "name": "_PBI-01 Welcome to PowerBI.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629833_1/xid-30629833_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Getting_Started_With_PowerBI.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629836_1/xid-30629836_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "superstore_dataset_2011-2015.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629837_1/xid-30629837_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "covid.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629838_1/xid-30629838_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629839_1/xid-30629839_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "PBi01 Covid and Superstore by Mansha Nawaz.pbix",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629840_1/xid-30629840_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "My 1st BI Dashboard - Melanie Barker.pbix",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537319-dt-content-rid-30629842_1/xid-30629842_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week1_recording",
+    "target": "week1/recording",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537276_1?courseId=_29627_1&view=content&state=view",
+    "files": [],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://teesside.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=12c44112-84e6-4a60-9682-b1f400d8a7aa",
+        "text": "Link to the recording"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nLecture Material\nLab Session - Introduction to Power BI\nLecture Recording\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLecture Recording\n\nUse the link below to watch the recording of the first lecture: \n\nLink to the recording\n\n×",
+    "saved": []
+  },
+  {
+    "label": "week2_lecture",
+    "target": "week2/lecture",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537278_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Wek 2 - Data Warehouse and BI Models.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537320-dt-content-rid-30629845_1/xid-30629845_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nLecture Material and Video\nLab Session\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLecture Material and Video\n\nThis week, we well look at Data types, data warehouses, and Business Intelligence models.\n\nWek 2 - Data Warehouse and BI Models.pptx\n×",
+    "saved": [
+      {
+        "name": "Wek 2 - Data Warehouse and BI Models.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537320-dt-content-rid-30629845_1/xid-30629845_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week2_lab",
+    "target": "week2/lab",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537279_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Products.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629851_1/xid-30629851_1"
+      },
+      {
+        "name": "Week 2 - Power BI - Workbook.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629854_1/xid-30629854_1"
+      },
+      {
+        "name": "Dealing With Errors in Power BI - V2.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629855_1/xid-30629855_1"
+      },
+      {
+        "name": "Power BI - Task 1.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629856_1/xid-30629856_1"
+      },
+      {
+        "name": "Capture.PNG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629857_1/xid-30629857_1"
+      },
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629858_1/xid-30629858_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://forms.office.com/Pages/ResponsePage.aspx?id=WxHSQ16ltkad97AziOz8YCvNb6aBQQpAjKF_2wE9jYxUMU84RTM5UTA4SkxBMkJGOUVBNUpNWlhTOS4u",
+        "text": "Form - Power BI log-in issues"
+      },
+      {
+        "href": "https://teesside.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c6b82a6f-cc7e-4090-92f0-af20013312e0",
+        "text": "Link to video"
+      },
+      {
+        "href": "https://padlet.com/a_occhipinti/business-intelligence-tasks-don-t-forget-to-add-your-name-be-mndz1mjxwz1o5cp4",
+        "text": "Link to Padlet"
+      },
+      {
+        "href": "https://libguides.tees.ac.uk/az/oreilly-for-higher-education",
+        "text": "https://libguides.tees.ac.uk/az/oreilly-for-higher-education"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nLecture Material and Video\nLab Session\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLab Session\n\nWelcome to the second lab session of the module\n\nIn this lesson, you will learn how to use a few more tools in Power BI for data integration and data pre-processing.\n\nUse the remaining time of this lesson to look for a suitable dataset to use for your assessment. You can look at the lists of datasets provided under Extra Resouces.\n\nIf you have any questions, please do not hesitate to contact us during the sessions.\n\nWe hope you enjoy the lesson.\n\nBefore starting today's session, please check that you can sign in on Power BI.\n\nIf you can't please fill in the form below.\n\nForm - Power BI log-in issues\n\nWatch the short introduction Video below to get started with today's tasks.\n\nLink to video\n\n1) Workbook A: \n\nUsing Different Data Sources in Power BI and Data pre-processing.\n\nProducts.xlsx\n\n\n\n\nWeek 2 - Power BI - Workbook.pdf\n\n\n\n\n2) Extension Task:\n\nIn this task, you will learn how to deal with errors and missing values in Power BI.\n\nDealing With Errors in Power BI - V2.pdf\n\n\n\n\nPower BI - Task 1.csv\n\n\n\n\nChallenge\n\nOnce you have completed this workbook, can you try to create the dashboard below? Kindly provided by Luke.\n\n\n\n\nShare on Padlet\n\nDon't forget to share all your work on Padlet: Link to Padlet\n\nICA Work\n\nIf you still have time left in this tutorial session, use it to look for a dataset for your ICA using the list of datasets provided in the Extra Resources folder.\n\nSupporting Material and Books and Tutorials on PowerBI: O'Reilly Resources\n\nClick on the link below and select \"Access Database\" to access additional books and tutorials on Power BI and Business Intelligence\n\nhttps://libguides.tees.ac.uk/az/oreilly-for-higher-education \n\n\n\n\n\n\n\n×",
+    "saved": [
+      {
+        "name": "Products.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629851_1/xid-30629851_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Week 2 - Power BI - Workbook.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629854_1/xid-30629854_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Dealing With Errors in Power BI - V2.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629855_1/xid-30629855_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Power BI - Task 1.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629856_1/xid-30629856_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Capture.PNG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629857_1/xid-30629857_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537321-dt-content-rid-30629858_1/xid-30629858_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week3_lecture",
+    "target": "week3/lecture",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537282_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Data Modelling and Relationships.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537322-dt-content-rid-30629861_1/xid-30629861_1"
+      },
+      {
+        "name": "Flat Table - Students Classes.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537322-dt-content-rid-30629864_1/xid-30629864_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://teesside.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=890246e6-5163-497d-8f56-af2a0096654c",
+        "text": "Click here to watch the recording"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nLecture Material and Video\nLab Session\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLecture Material and Video\n\n\n\n\nData Modelling and Relationships.pptx\n\n\n\n\n\n\n\nFlat Table - Students Classes.xlsx\n\n\n\n\nLink to the recording.\n\nClick here to watch the recording\n\n×",
+    "saved": [
+      {
+        "name": "Data Modelling and Relationships.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537322-dt-content-rid-30629861_1/xid-30629861_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Flat Table - Students Classes.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537322-dt-content-rid-30629864_1/xid-30629864_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week3_lab",
+    "target": "week3/lab",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537283_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Challenge 1.1 - Netflix Dataset.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537323-dt-content-rid-30629867_1/xid-30629867_1"
+      },
+      {
+        "name": "netflix_titles.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537323-dt-content-rid-30629870_1/xid-30629870_1"
+      },
+      {
+        "name": "Data Analytics - Netflix Dataset.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537323-dt-content-rid-30629871_1/xid-30629871_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://liveteesac-my.sharepoint.com/:v:/g/personal/a_occhipinti_tees_ac_uk/EZCbA3czl_FLtNlgqT7ypQwBy8NzugfvwPwrlA974GDhZw?e=Qxeggk",
+        "text": "Link to the video"
+      },
+      {
+        "href": "https://forms.office.com/Pages/ResponsePage.aspx?id=WxHSQ16ltkad97AziOz8YCvNb6aBQQpAjKF_2wE9jYxUMU84RTM5UTA4SkxBMkJGOUVBNUpNWlhTOS4u",
+        "text": "Form - Power BI log-in issues"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nLecture Material and Video\nLab Session\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLab Session\n\nHi all,\n\nI hope you're enjoying this module and you are looking forward to learning more things using Power BI!\n\nThis week, you will be required to complete two independent tasks: a Challenge and a Data Analytics task to analyse a Netflix Dataset.\n\nWe hope you'll enjoy this lab session,\n\nThe Teaching Team\n\nWatch the video below, which provides a short introduction to today's lab session:\n\nLink to the video\n\nBefore starting today's session, please check that you can sign in on Power BI.\n\nIf you can't please fill in the form below.\n\nForm - Power BI log-in issues\n\n1) Challenge task: Netflix Dataset \n\nChallenge 1.1 - Netflix Dataset.docx\n\n\n\n\nnetflix_titles.csv\n\n\n\n\n2) Data Analytics Task: Netflix Dataset\n\nData Analytics - Netflix Dataset.docx\n\n\n\n\nICA Checkpoint\n\nHave you identified the dataset for your ICA yet?\n\nIf not, please have a look at the list of datasets provided under Extra Resources. \n\n×",
+    "saved": [
+      {
+        "name": "Challenge 1.1 - Netflix Dataset.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537323-dt-content-rid-30629867_1/xid-30629867_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "netflix_titles.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537323-dt-content-rid-30629870_1/xid-30629870_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Data Analytics - Netflix Dataset.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537323-dt-content-rid-30629871_1/xid-30629871_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week4_lecture",
+    "target": "week4/lecture",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537286_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Data Preparation and Exploration-Week 4_.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537325-dt-content-rid-30629881_1/xid-30629881_1"
+      },
+      {
+        "name": "advertising.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537325-dt-content-rid-30629884_1/xid-30629884_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://teesside.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=71436a2d-6520-49c3-99f5-b37900b75e95",
+        "text": "Link to the recording"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nLecture Material\nLab Session\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLecture Material\nData Preparation and Exploration-Week 4_.pptx\nadvertising.csv\n\nThe recording will be available after the lecture\n\nLink to the recording\n\n×",
+    "saved": [
+      {
+        "name": "Data Preparation and Exploration-Week 4_.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537325-dt-content-rid-30629881_1/xid-30629881_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "advertising.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537325-dt-content-rid-30629884_1/xid-30629884_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week4_lab",
+    "target": "week4/lab",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537287_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Capture.PNG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629887_1/xid-30629887_1"
+      },
+      {
+        "name": "Power BI - Workbook - Task 1.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629890_1/xid-30629890_1"
+      },
+      {
+        "name": "BusinessData.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629891_1/xid-30629891_1"
+      },
+      {
+        "name": "Power BI - Workbook - Task 2_2.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629892_1/xid-30629892_1"
+      },
+      {
+        "name": "BusinessDataAllTables.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629893_1/xid-30629893_1"
+      },
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629894_1/xid-30629894_1"
+      },
+      {
+        "name": "week4_lab_7",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629895_1/xid-30629895_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://teesside.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e95ab75a-6187-48c8-b9a8-af2e00e4b061",
+        "text": "Click here to watch the video"
+      },
+      {
+        "href": "https://forms.office.com/Pages/ResponsePage.aspx?id=WxHSQ16ltkad97AziOz8YCvNb6aBQQpAjKF_2wE9jYxUMU84RTM5UTA4SkxBMkJGOUVBNUpNWlhTOS4u",
+        "text": "Fill in this form if you can't sign into Power BI"
+      },
+      {
+        "href": "https://rigorousthemes.com/blog/best-power-bi-dashboard-examples/",
+        "text": "15 Best Power BI Dashboards"
+      },
+      {
+        "href": "https://www.numerro.io/guides/top-10-power-bi-dashboard-examples-free-template",
+        "text": "Top 10 Power BI Dashboards"
+      },
+      {
+        "href": "https://teesside.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dc006e4c-a8a2-4234-a318-af310110353b",
+        "text": "Video on how to add a new Power BI Theme"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nLecture Material\nLab Session\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLab Session\n\nWelcome to a new lab session.\n\nWe hope you are enjoying your journey with Power BI.\n\nThis week, you will have the opportunity to learn more about data modelling.\n\nVideo-Introduction to the lab session:\n\nClick here to watch the video\n\n1) Check your Power BI account\n\nBefore starting today's tasks, please take a moment to sign in to Power BI.\n\nOpen Power BI and select Sign in in the top right corner.\n\nIf you see your name, you're already signed in, so you can get started with today's tasks.\n\n\n\n\nIf you're able to sign in without any errors, please move into the next task.\n\nIf you can't sign in, please fill in the form below and we will activate your account. \n\nThank you\n\nFill in this form if you can't sign into Power BI\n\n1) Workbook 1\n\nFirst Steps with Data Modelling in Power BI\n\nPower BI - Workbook - Task 1.pdf\n\n\n\n\nBusinessData.xlsx\n\n\n\n\n2) Workbook 2\n\nAdding Relationships to your Data Model\n\nPower BI - Workbook - Task 2_2.pdf\n\n\n\n\nBusinessDataAllTables.xlsx\n\n\n\n\n3) Designing the final dashboard\n\nUse the file you've been working on to design a dashboard. \n\nIdentify at least 3 business questions and try to use the optimal chart to answer those questions.\n\nCheck the links below to get new ideas on how to present your dashboard:\n\n15 Best Power BI Dashboards\n\nTop 10 Power BI Dashboards\n\nDon't forget to publish your final dashboard on Padlet!\n\nCan you make the dashboards below? \n\nAny help with the Theme? Check this video: \n\nVideo on how to add a new Power BI Theme\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4) ICA Work - Checkpoint\n\nHave you selected the Dataset for your ICA yet? Have you started thinking about the business solution you are going to implement?\n\nPlease don't underestimate the time needed to find a suitable dataset and pre-process it. You should have the final dataset as soon as possible.\n\nUse the rest of this lesson to find a dataset and start the pre-processing steps (e.g. removing missing values, renaming columns, creating relationships).\n\n×",
+    "saved": [
+      {
+        "name": "Capture.PNG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629887_1/xid-30629887_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Power BI - Workbook - Task 1.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629890_1/xid-30629890_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "BusinessData.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629891_1/xid-30629891_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Power BI - Workbook - Task 2_2.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629892_1/xid-30629892_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "BusinessDataAllTables.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629893_1/xid-30629893_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629894_1/xid-30629894_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "week4_lab_7",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537326-dt-content-rid-30629895_1/xid-30629895_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week5_lecture",
+    "target": "week5/lecture",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537290_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Latecomer Induction Oct.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537327-dt-content-rid-18774161_1/xid-18774161_1"
+      },
+      {
+        "name": "Data Analytics using DAX - Week 5.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537327-dt-content-rid-30629898_1/xid-30629898_1"
+      },
+      {
+        "name": "week5_lecture_3",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537327-dt-content-rid-30630001_1/xid-30630001_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://teesside.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c3777140-9459-404c-871e-b38000b6206c",
+        "text": "Link to the recording"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nLecture Material\nLab Session\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLecture Material\n\n\n\n\nLatecomer Induction Oct.pptx\n\n\n\n\nData Analytics using DAX - Week 5.pptx\n\n\n\n\nThe recording will be available after the live lecture\n\nLink to the recording\n\n\n\n\n\n\n\n×",
+    "saved": [
+      {
+        "name": "Latecomer Induction Oct.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537327-dt-content-rid-18774161_1/xid-18774161_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Data Analytics using DAX - Week 5.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537327-dt-content-rid-30629898_1/xid-30629898_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "week5_lecture_3",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537327-dt-content-rid-30630001_1/xid-30630001_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week5_lab",
+    "target": "week5/lab",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537291_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Power BI - Workbook - Preparing database for Data Analytics Tasks.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630004_1/xid-30630004_1"
+      },
+      {
+        "name": "AdventureWorks_Database.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630007_1/xid-30630007_1"
+      },
+      {
+        "name": "Budget.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630008_1/xid-30630008_1"
+      },
+      {
+        "name": "Power BI - Workbook - Business Intelligence with DAX_2.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630009_1/xid-30630009_1"
+      },
+      {
+        "name": "advertising.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630010_1/xid-30630010_1"
+      },
+      {
+        "name": "Tutorial 3 - Power BI - Workbook Advanced Maths with DAX.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630011_1/xid-30630011_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://teesside.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a5d800f1-2363-4161-bdc8-adcd00885144",
+        "text": "Link to video"
+      },
+      {
+        "href": "https://docs.microsoft.com/en-us/learn/paths/dax-power-bi/",
+        "text": "Use DAX in Power BI Desktop"
+      },
+      {
+        "href": "https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-quickstart-learn-dax-basics",
+        "text": "Apply DAX basics in Power BI Desktop"
+      },
+      {
+        "href": "https://docs.microsoft.com/en-us/dax/",
+        "text": "Data Analysis Expressions (DAX) Reference"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nLecture Material\nLab Session\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\n\nLearning Materials\n\nPrevious\nNext\nLab Session\n\nWelcome to a new lab session!\n\nThis week you'll learn more about DAX for Data Analytics in Power BI.\n\nWe hope you'll enjoy this session.\n\nIn the video below, I've recorded a short intro to this week's lab session.\n\nLink to video\n\n1) Workbook 1: Preparing the dataset\n\nIn this workbook, you will perform some pre-processing steps before applying data analytics.\n\nPower BI - Workbook - Preparing database for Data Analytics Tasks.pdf\n\n\n\n\nAdventureWorks_Database.xlsx\n\n\n\n\nBudget.xlsx\n\n\n\n\n2) Workbook 2: Using DAX\n\nIn this workbook, you will start working with DAX.\n\nPower BI - Workbook - Business Intelligence with DAX_2.pdf\n\n\n\n\n3) Workbook 3: Maths Challenge using DAX\n\nIn this workbook, you will have the opportunity to use DAX to work out the gradient and y-intercept of a regression line. This task might be a bit more challenging than the others, but we hope you'll enjoy playing with Maths for a bit.\n\nadvertising.csv\n\n\n\n\nTutorial 3 - Power BI - Workbook Advanced Maths with DAX.pdf\n\n\n\n\nExtension Tasks\n\nHave a look at the material provided by Microsoft to improve your knowledge of DAX in Power BI:\n\nUse DAX in Power BI Desktop\n\nApply DAX basics in Power BI Desktop\n\nData Analysis Expressions (DAX) Reference\n\n×",
+    "saved": [
+      {
+        "name": "Power BI - Workbook - Preparing database for Data Analytics Tasks.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630004_1/xid-30630004_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "AdventureWorks_Database.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630007_1/xid-30630007_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Budget.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630008_1/xid-30630008_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Power BI - Workbook - Business Intelligence with DAX_2.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630009_1/xid-30630009_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "advertising.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630010_1/xid-30630010_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Tutorial 3 - Power BI - Workbook Advanced Maths with DAX.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537328-dt-content-rid-30630011_1/xid-30630011_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week8_lecture",
+    "target": "week8/lecture",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537301_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537333-dt-content-rid-30630052_1/xid-30630052_1"
+      },
+      {
+        "name": "Module-Evaluation-Surveys-QR-Code.ppsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537333-dt-content-rid-30630055_1/xid-30630055_1"
+      },
+      {
+        "name": "Week 8 - Lecture - Writing a Business Report -  ICA Focus.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537333-dt-content-rid-30630056_1/xid-30630056_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftees.surveys.evasysplus.co.uk%2F&data=04%7C01%7Ca.occhipinti%40tees.ac.uk%7Ce89e2a0abb89479a80db08d9a7e497ec%7C43d2115ba55e46b69df7b03388ecfc60%7C0%7C1%7C637725422506324357%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=9zqKmy0Xo2LCn2Vmqe%2FB12cy0aUL4tZv9f2nj3qc0Nc%3D&reserved=0",
+        "text": "https://tees.surveys.evasysplus.co.uk/"
+      },
+      {
+        "href": "https://teesside.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=239a5f06-8a3e-43c0-aa9c-b22500e843df",
+        "text": "Link to the recording"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\nLecture Material\nLab Session\n\nLearning Materials\n\nPrevious\nNext\nLecture Material\n\n\n\n\n\n\n\nBefore starting today's lesson, please take a few minutes to fill in the student survey for the Big Data and Business Intelligence module.\n\nUse the link below to access the survey (look for Big Data and Business Intelligence) and write about all the beautiful things that you've learnt in this module so far :)\n\nhttps://tees.surveys.evasysplus.co.uk/\n\nThank you for your time,\n\nThe Teaching Team\n\nModule-Evaluation-Surveys-QR-Code.ppsx\n\nThe recording of the lecture will be available within 48 hours of the live lecture\n\nLink to the recording\n\n\n\n\nWeek 8 - Lecture - Writing a Business Report -  ICA Focus.pptx\n\n\n\n\n×",
+    "saved": [
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537333-dt-content-rid-30630052_1/xid-30630052_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Module-Evaluation-Surveys-QR-Code.ppsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537333-dt-content-rid-30630055_1/xid-30630055_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Week 8 - Lecture - Writing a Business Report -  ICA Focus.pptx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537333-dt-content-rid-30630056_1/xid-30630056_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "week8_lab",
+    "target": "week8/lab",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537302_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630059_1/xid-30630059_1"
+      },
+      {
+        "name": "Challenge - Formatting Options.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630062_1/xid-30630062_1"
+      },
+      {
+        "name": "wfp_market_food_prices.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630063_1/xid-30630063_1"
+      },
+      {
+        "name": "Advanced Power Query Techniques.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630064_1/xid-30630064_1"
+      },
+      {
+        "name": "Working Hours.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630065_1/xid-30630065_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftees.surveys.evasysplus.co.uk%2F&data=04%7C01%7Ca.occhipinti%40tees.ac.uk%7Ce89e2a0abb89479a80db08d9a7e497ec%7C43d2115ba55e46b69df7b03388ecfc60%7C0%7C1%7C637725422506324357%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=9zqKmy0Xo2LCn2Vmqe%2FB12cy0aUL4tZv9f2nj3qc0Nc%3D&reserved=0",
+        "text": "https://tees.surveys.evasysplus.co.uk/"
+      },
+      {
+        "href": "https://teesside.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eb159596-28a0-4473-9ac5-ade2009aaed4",
+        "text": "Link to the Introduction Video to the Lab Session"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nWeek 0 - Reading\nWeek 1 - Module Introduction, Power BI Overview and ICA Briefing\nWeek 2 - Data Warehouse and Business Intelligence\nWeek 3 - Data Modelling and Building Relationships in Power BI\nWeek 4 - Data Analytics\nWeek 5 - Data Analytics using DAX\nWeek 6 - Data Analytics using M Language\nWeek 7 - Dashboard Design and Writing a BI Report\nWeek 8 - ICA Focus\nLecture Material\nLab Session\n\nLearning Materials\n\nPrevious\nLab Session\n\nHi all,\n\nWelcome to a new lab session.\n\nToday you will learn about different formatting options in Power BI and how to use Advanced Techniques for modelling your data.\n\nWe hope you'll enjoy this new session,\n\nThe teaching team\n\n\n\n\n\n\n\nBefore starting today's lab session, take a few minutes to fill in the student survey for the Big Data and Business Intelligence module.\n\nUse the link below to access the survey (look for Big Data and Business Intelligence) and write about all the beautiful things that you've learnt in this module so far :)\n\nhttps://tees.surveys.evasysplus.co.uk/\n\nThank you for your time,\n\nThe Teaching Team\n\nLink to the Introduction Video to the Lab Session\n\n1) Challenge Task: Formatting Options\n\nIn this task, you will learn how to use different formatting options in Power BI.\n\nChallenge - Formatting Options.pdf\n\n\n\n\nwfp_market_food_prices.csv\n\n\n\n\n2) Advanced Power Query Techniques\n\nIn this workbook, you will learn new advanced techniques to model data in Power BI.\n\nAdvanced Power Query Techniques.pdf\n\n\n\n\nWorking Hours.xlsx\n\n\n\n\nHow would you use the techniques learnt today in your ICA?\n\nYou should consider using the techniques learnt today in your ICA. \n\nUse the rest of this lab session to work on your ICA.\n\n×",
+    "saved": [
+      {
+        "name": "Capture.JPG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630059_1/xid-30630059_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Challenge - Formatting Options.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630062_1/xid-30630062_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "wfp_market_food_prices.csv",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630063_1/xid-30630063_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Advanced Power Query Techniques.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630064_1/xid-30630064_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Working Hours.xlsx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537334-dt-content-rid-30630065_1/xid-30630065_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "assessment_integrity",
+    "target": "assessment/docs",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537245_1?courseId=_29627_1&view=content&state=view",
+    "files": [],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      },
+      {
+        "href": "https://libguides.tees.ac.uk/AcademicMisconduct",
+        "text": "What is academic misconduct? - Academic misconduct - LibGuides at Teesside University"
+      },
+      {
+        "href": "https://connect.tees.ac.uk/docs/publicdocumentslibraries/default-document-library/legal-and-governance-services/Academic-Misconduct-Regulations.pdf",
+        "text": "Academic misconduct regulations"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nAcademic Integrity & Assessment Declaration - Please read before submitting any assessments\nICA Documents\nICA Samples\nICA Submission Link - Please upload one PDF file (both Sections 1 and 2 of the report) and the PowerBI file\n\nAssessments\n\nNext\nAcademic Integrity & Assessment Declaration - Please read before submitting any assessments\nAssessment Declaration\n\nWhen you submit your assessment you are agreeing that the statements below are true.\n\nI am aware of the University’s Regulations on Cheating and Plagiarism and confirm that the work I submit via this module is my own and does not contain any unacknowledged material from other sources.\nWork submitted via this module has not been submitted in full or in part towards the assessment requirements of another module or course. \nAcademic Misconduct - What is it?\n\nTo understand what academic misconduct is please read the following resources:\n\nWhat is academic misconduct? - Academic misconduct - LibGuides at Teesside University\n\nAcademic Misconduct Regulations\n\nThe link below will help you understand the academic misconduct regulations. Please read the content before submitting your work:\n\nAcademic misconduct regulations \n\nWhat follows is only a brief summary of the University’s Academic Misconduct procedure and should be read in conjunction with the full regulations provided above.\n\nYou are strongly recommended to read those Regulations. They provide a detailed explanation of academic misconduct, the procedures which must be followed when an academic misconduct offence is suspected, and the possible penalties.\n\nAcademic misconduct is defined by the University as:\n\n‘Any action by a student which gives (or which has the potential to give) an unfair advantage in an examination or assessment, or to assist someone to gain an unfair advantage, or any activity likely to undermine the integrity essential to scholarship and research.’\n\nIn order to avoid academic misconduct, the University is committed to continually educate its students on how to develop good academic practice and writing skills. The following support is available and it is recommended that you take advantage of this:\n\n* Advice and guidance from your Students’ Union (or equivalent);\n\n* The University’s Learning Hub, based in the University’s Student & Library Services;\n\n* Facility for students and staff to use plagiarism e:detection software;\n\n* Briefings on academic misconduct provided at student induction events and during relevant modules;\n\n* You are entitled to be accompanied to the Meeting/Hearing arranged under the Regulations by one friend who may not act as a representative or attend in any legal capacity unless permitted to do so by the person conducting the proceedings. Your friend may be a representative from your Students’ Union (or equivalent).\n\nThe following tips may help you to avoid academic misconduct:\n\nDo:\n\n* Familiarise yourself with the regulations and penalties that can be incurred. For professional programmes, a single case of academic misconduct may result in you being discontinued from your course.\n\n* Make sure that you know how to correctly acknowledge other people’s work or opinions, and get feedback from your Tutor on whether or not you are doing this correctly.\n\n* Take care when making notes ",
+    "saved": []
+  },
+  {
+    "label": "assessment_ica_documents",
+    "target": "assessment/docs",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537246_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Big Data and BI - ICA.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537315-dt-content-rid-30629814_1/xid-30629814_1"
+      },
+      {
+        "name": "ICA - Template - Big Data and BI.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537315-dt-content-rid-18776414_1/xid-18776414_1"
+      },
+      {
+        "name": "Capture.PNG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537315-dt-content-rid-18776377_1/xid-18776377_1"
+      },
+      {
+        "name": "Masters Degree Apprenticeship Knowledge, Skills, and Behaviour.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537315-dt-content-rid-18776378_1/xid-18776378_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nAcademic Integrity & Assessment Declaration - Please read before submitting any assessments\nICA Documents\nICA Samples\nICA Submission Link - Please upload one PDF file (both Sections 1 and 2 of the report) and the PowerBI file\n\nAssessments\n\nPrevious\nNext\nICA Documents\n\nPlease read carefully the document below, which contains important information about your In course Assessment (ICA).\n\nPowerBI ICA BRIEF: \n\nBig Data and BI - ICA.docx\n\n\n\n\nICA Template - to be used for guidance\n\nICA - Template - Big Data and BI.docx\n\n\n\n\nPlease use a 0-100 scale for the self-assessment table at the end of your report.\n\n\n\n\n\n\n\nAssessment Criteria - For Degree Apprenticeship Students Only\n\nMasters Degree Apprenticeship Knowledge, Skills, and Behaviour.docx\n\n\n\n\n×",
+    "saved": [
+      {
+        "name": "Big Data and BI - ICA.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537315-dt-content-rid-30629814_1/xid-30629814_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "ICA - Template - Big Data and BI.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537315-dt-content-rid-18776414_1/xid-18776414_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Capture.PNG",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537315-dt-content-rid-18776377_1/xid-18776377_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Masters Degree Apprenticeship Knowledge, Skills, and Behaviour.docx",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537315-dt-content-rid-18776378_1/xid-18776378_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "assessment_ica_samples",
+    "target": "assessment/samples",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537247_1?courseId=_29627_1&view=content&state=view",
+    "files": [
+      {
+        "name": "Big+Data+&+BI+ICA+Report+-+Chukwujekwu+Joseph+Ezema+(B1190869).pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629819_1/xid-30629819_1"
+      },
+      {
+        "name": "Fabian_Umeh_B1652341+Power+BI+report.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629822_1/xid-30629822_1"
+      },
+      {
+        "name": "W9572857_SIMRAN_JAIN_Big_data.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629823_1/xid-30629823_1"
+      },
+      {
+        "name": "F1 - Sample Dashboard.pbix",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629824_1/xid-30629824_1"
+      },
+      {
+        "name": "DB and BI Dashboard.pbix",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629825_1/xid-30629825_1"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/institution-page",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "SPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/calendar",
+        "text": "Calendar"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/announcements",
+        "text": "Announcements"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/grades",
+        "text": "Gradebook"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/messages",
+        "text": "Messages"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/groups/enrollments",
+        "text": "Groups"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n\nView everyone on your module"
+      },
+      {
+        "href": "javascript:void(0);",
+        "text": "Course Room"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n\nView module & institution tools"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nSPT-16242-SCM-2025 • Big Data and Business Intelligence CIS4008-N (Amity - May 26)\nOPEN\nCOURSE STATUS OPEN\nModule Content\nCalendar\nAnnouncements\nDiscussions\nGradebook\nMessages\nGroups\nSPT-16242-SCM-2025\nBig Data and Business Intelligence CIS4008-N (Amity - May 26)\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nModule Staff\nJennifer Cassidy\n\nINSTRUCTOR\n\nMurphy Choy\n\nINSTRUCTOR\n\nShow more\nDetails & Actions\nClass register\n\nView everyone on your module\n\nClass Collaborate\nJoin session \nModule Tools\n\nView module & institution tools\n\nHelp for current page\nContents\nAcademic Integrity & Assessment Declaration - Please read before submitting any assessments\nICA Documents\nICA Samples\nICA Submission Link - Please upload one PDF file (both Sections 1 and 2 of the report) and the PowerBI file\n\nAssessments\n\nPrevious\nNext\nICA Samples\n\nThe ICAs below are samples from the past years\n\nLook at these assignments to get a better idea of how to present some of the sections, but use the provided template for writing your ICA.\n\n\n\n\nBig+Data+&+BI+ICA+Report+-+Chukwujekwu+Joseph+Ezema+(B1190869).pdf\n\n\n\n\nFabian_Umeh_B1652341+Power+BI+report.pdf\n\n\n\n\nW9572857_SIMRAN_JAIN_Big_data.pdf\n\n\n\n\nPower BI - Dashboard Samples\n\nDO NOT COPY - The Dashboards below are for example only. \n\nIf you use or copy any of this content, you might get accused of plagiarism. Please do not copy them. \n\nF1 - Sample Dashboard.pbix\n\n\n\n\nDB and BI Dashboard.pbix\n\n\n\n\n×",
+    "saved": [
+      {
+        "name": "Big+Data+&+BI+ICA+Report+-+Chukwujekwu+Joseph+Ezema+(B1190869).pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629819_1/xid-30629819_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "Fabian_Umeh_B1652341+Power+BI+report.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629822_1/xid-30629822_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "W9572857_SIMRAN_JAIN_Big_data.pdf",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629823_1/xid-30629823_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "F1 - Sample Dashboard.pbix",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629824_1/xid-30629824_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      },
+      {
+        "name": "DB and BI Dashboard.pbix",
+        "url": "https://bb.tees.ac.uk/bbcswebdav/pid-3537316-dt-content-rid-30629825_1/xid-30629825_1",
+        "error": "Error: TypeError: fetch is not a function\n    at __playwrightEvaluate (<anonymous>:2642:23)\n    at <anonymous>:2650:14\n    at runUserScript (<anonymous>:2651:10)\n    at <anonymous>:2655:10\n    at <anonymous>:2656:3"
+      }
+    ]
+  },
+  {
+    "label": "extra_dashboard_examples",
+    "target": "resources/extra",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537193_1?courseId=_29627_1&view=content&state=view",
+    "files": [],
+    "links": [
+      {
+        "href": "https://bb.tees.ac.uk/ultra/stream",
+        "text": ""
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline",
+        "text": "Module Content"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/engagement",
+        "text": "Discussions"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/roster",
+        "text": "Class register\n              \n              \n                View everyone on your module"
+      },
+      {
+        "href": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/booksAndTools?parentId=_3499809_1",
+        "text": "Module Tools\n              \n              \n                View module & institution tools"
+      }
+    ],
+    "text": "Skip to main content\nSkip to course information\nModules\nModule Content\nDiscussions\nModule Content\nAI Permission: Amber\nThis module has an AI Permission of Amber. You can, if you wish, use AI as a companion for specific tasks, explicitly permitted by the Module Leader when producing your assessment.\nModule Information & Resources\nThe module guide and schedule of learning, as well as other helpful information related to the module can be accessed here.\nLearning Materials\nAccess your learning materials here - including recordings of live lectures and notes, labs, seminars and other resources. Learning materials will be made available no later than two working days after the taught session.\nAssessments\nYour assessment details, including the submission area, if applicable, can be accessed here. You will receive unratified feedback within 20 working days from the submission date. Students with agreed Additional Support Needs in place may be eligible for an alternative assessment format. Please speak to the module leader if you think this may be appropriate for you.\nDatasets for ICA and Extra Resources\nHere you will find extra resources to learn about Power BI and Business Intelligence.\nNo more content items to load\nContents\n\nDatasets for ICA and Extra Resources\n\n15 Best Power BI Dashboard Examples\n×",
+    "saved": []
+  },
+  {
+    "label": "extra_powerbi_books",
+    "target": "resources/extra",
+    "url": "https://bb.tees.ac.uk/ultra/courses/_29627_1/outline/edit/document/_3537194_1?courseId=_29627_1&view=content&state=view",
+    "error": "Error: Timed out after 10000ms waiting for CDP command Page.navigate."
+  }
+]

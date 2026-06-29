@@ -1,0 +1,12 @@
+metric,value
+source_rows,4227
+clean_movie_rows,2311
+top_director_by_movie_count,"Raúl Campos, Jan Suter"
+top_director_movie_count,18
+directors_with_exactly_one_movie,1811
+directors_with_more_than_10_movies,"Marcus Raboy: 13; Raúl Campos, Jan Suter: 18"
+movies_added_in_2020,33
+movies_added_in_2020_duration_gt_60,32
+highest_added_year_by_count,2019: 832
+lowest_added_year_by_count,2020: 33
+top_country_by_movie_count,United States: 968

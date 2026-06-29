@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="480.0" y="35" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Top Countries by Movie Count</text>
+<text x="248" y="84.4" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">Japan</text>
+<rect x="260" y="70.0" width="21.8" height="21.2" fill="#c73535"/>
+<text x="287.8" y="84.4" font-family="Arial" font-size="13" fill="#666666">33</text>
+<text x="248" y="113.6" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">Brazil</text>
+<rect x="260" y="99.2" width="21.8" height="21.2" fill="#c73535"/>
+<text x="287.8" y="113.6" font-family="Arial" font-size="13" fill="#666666">33</text>
+<text x="248" y="142.8" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">South Korea</text>
+<rect x="260" y="128.4" width="23.1" height="21.2" fill="#c73535"/>
+<text x="289.1" y="142.8" font-family="Arial" font-size="13" fill="#666666">35</text>
+<text x="248" y="172.0" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">Australia</text>
+<rect x="260" y="157.6" width="23.1" height="21.2" fill="#c73535"/>
+<text x="289.1" y="172.0" font-family="Arial" font-size="13" fill="#666666">35</text>
+<text x="248" y="201.2" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">Belgium</text>
+<rect x="260" y="186.8" width="28.4" height="21.2" fill="#c73535"/>
+<text x="294.4" y="201.2" font-family="Arial" font-size="13" fill="#666666">43</text>
+<text x="248" y="230.4" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">Argentina</text>
+<rect x="260" y="216.0" width="30.4" height="21.2" fill="#c73535"/>
+<text x="296.4" y="230.4" font-family="Arial" font-size="13" fill="#666666">46</text>
+<text x="248" y="259.6" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">China</text>
+<rect x="260" y="245.2" width="35.7" height="21.2" fill="#c73535"/>
+<text x="301.7" y="259.6" font-family="Arial" font-size="13" fill="#666666">54</text>
+<text x="248" y="288.8" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">Mexico</text>
+<rect x="260" y="274.4" width="37.0" height="21.2" fill="#c73535"/>
+<text x="303.0" y="288.8" font-family="Arial" font-size="13" fill="#666666">56</text>
+<text x="248" y="318.0" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">Germany</text>
+<rect x="260" y="303.6" width="38.3" height="21.2" fill="#c73535"/>
+<text x="304.3" y="318.0" font-family="Arial" font-size="13" fill="#666666">58</text>
+<text x="248" y="347.2" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">Spain</text>
+<rect x="260" y="332.8" width="70.1" height="21.2" fill="#c73535"/>
+<text x="336.1" y="347.2" font-family="Arial" font-size="13" fill="#666666">106</text>
+<text x="248" y="376.4" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">Canada</text>
+<rect x="260" y="362.0" width="76.7" height="21.2" fill="#c73535"/>
+<text x="342.7" y="376.4" font-family="Arial" font-size="13" fill="#666666">116</text>
+<text x="248" y="405.6" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">France</text>
+<rect x="260" y="391.2" width="86.6" height="21.2" fill="#c73535"/>
+<text x="352.6" y="405.6" font-family="Arial" font-size="13" fill="#666666">131</text>
+<text x="248" y="434.8" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">United Kingdom</text>
+<rect x="260" y="420.4" width="117.0" height="21.2" fill="#c73535"/>
+<text x="383.0" y="434.8" font-family="Arial" font-size="13" fill="#666666">177</text>
+<text x="248" y="464.0" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">India</text>
+<rect x="260" y="449.59999999999997" width="239.3" height="21.2" fill="#c73535"/>
+<text x="505.3" y="464.0" font-family="Arial" font-size="13" fill="#666666">362</text>
+<text x="248" y="493.2" text-anchor="end" font-family="Arial" font-size="14" fill="#111111">United States</text>
+<rect x="260" y="478.8" width="640.0" height="21.2" fill="#c73535"/>
+<text x="906.0" y="493.2" font-family="Arial" font-size="13" fill="#666666">968</text>
+<text x="580.0" y="542" text-anchor="middle" font-family="Arial" font-size="15" fill="#111111">Movie count</text>
+</svg>

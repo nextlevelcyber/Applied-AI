@@ -27,7 +27,24 @@ Blackboard shows **AI Permission: Amber**. AI can be used as a companion for exp
 - `assessment/README.md`: assessment details, rubric, submission requirements.
 - `ica/`: planning templates and working notes for the ICA.
 - `week0` to `week8`: weekly summaries and lab checklists.
-- `resources/`: resource index and dataset notes.
+- `resources/materials_inventory.md`: downloaded Blackboard material inventory.
+- `resources/datasets/List of Datasets.xlsx`: official ICA dataset list downloaded from SharePoint.
+- `resources/datasets/dataset_links.md`: readable dataset link index.
+- `resources/datasets/sharepoint_folder_inventory.md`: SharePoint dataset folder file list.
+
+## Blackboard Sync
+
+Last Blackboard material sync: **2026-06-27**.
+
+Downloaded/recorded:
+
+- Week 0 reading PDF.
+- Week 1-5 lecture/lab files.
+- Week 8 lecture/lab files.
+- ICA documents and sample reports/dashboards.
+- Official ICA dataset list and extra resource links.
+
+Blackboard showed Week 6, Week 7, and the Sample Dataset folder as empty at the time of checking.
 
 ## Immediate Priority
 

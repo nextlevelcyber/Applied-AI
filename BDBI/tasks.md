@@ -1,6 +1,6 @@
 # BDBI Tasks
 
-Last checked: 2026-06-26
+Last checked: 2026-06-27
 
 ## Confirmed Deadline
 
@@ -10,9 +10,9 @@ Submission link text: "ICA Submission Link - Please upload one PDF file (both Se
 
 ## Current Must-Do Items
 
-- [ ] Read `Big Data and BI - ICA.docx` from Blackboard.
-- [ ] Use `ICA - Template - Big Data and BI.docx` as report guidance.
-- [ ] Choose one dataset from the official "List of Datasets for ICA".
+- [ ] Read `assessment/docs/Big Data and BI - ICA.docx` from Blackboard.
+- [ ] Use `assessment/docs/ICA - Template - Big Data and BI.docx` as report guidance.
+- [ ] Choose one dataset from the official `resources/datasets/List of Datasets.xlsx`.
 - [ ] If the list has no suitable dataset, note that Blackboard's Sample Dataset folder is currently empty.
 - [ ] Define business problem, audience, business questions, and KPIs.
 - [ ] Build Power BI data model: tables, relationships, cleaned fields, calculated columns/measures.
@@ -36,12 +36,12 @@ Submission link text: "ICA Submission Link - Please upload one PDF file (both Se
 
 ## Weekly Catch-Up
 
-- [ ] Week 0: read BI decision-making article.
-- [ ] Week 1: Power BI introduction and ICA briefing.
-- [ ] Week 2: data warehouse and BI concepts.
-- [ ] Week 3: Power BI data modelling and relationships.
-- [ ] Week 4: data analytics in Power BI.
-- [ ] Week 5: DAX analytics.
+- [ ] Week 0: read BI decision-making article. Materials downloaded in `week0/reading/`.
+- [ ] Week 1: Power BI introduction and ICA briefing. Materials downloaded in `week1/`.
+- [ ] Week 2: data warehouse and BI concepts. Materials downloaded in `week2/`.
+- [ ] Week 3: Power BI data modelling and relationships. Materials downloaded in `week3/`.
+- [ ] Week 4: data analytics in Power BI. Materials downloaded in `week4/`.
+- [ ] Week 5: DAX analytics. Materials downloaded in `week5/`.
 - [ ] Week 6: M Language, currently empty on Blackboard.
 - [ ] Week 7: dashboard design/report writing, currently empty on Blackboard.
 - [ ] Week 8: ICA focus.
@@ -49,3 +49,5 @@ Submission link text: "ICA Submission Link - Please upload one PDF file (both Se
 ## Notes
 
 The official Blackboard rubric has wording inconsistencies: one rubric item title says "BI Report Structure (20%)" but the displayed total mark says 25%; another item says "M and/or DAX (15%)" but the displayed total mark says 10%. Treat the displayed Blackboard rubric as the source to verify before final submission.
+
+Blackboard material sync on 2026-06-27 downloaded week materials, ICA documents, samples, and the dataset list. See `resources/materials_inventory.md` for the full local file inventory.

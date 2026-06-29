@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="100%" height="100%" fill="white"/>
+<text x="480.0" y="35" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Number of Movies by Added Year</text>
+<line x1="75" y1="455" x2="915" y2="455" stroke="#999"/>
+<line x1="75" y1="70" x2="75" y2="455" stroke="#999"/>
+<rect x="75.0" y="438.8" width="133.3" height="16.2" fill="#c73535"/>
+<text transform="translate(141.7,475) rotate(45)" text-anchor="start" font-family="Arial" font-size="12">2015</text>
+<rect x="216.3" y="381.0" width="133.3" height="74.0" fill="#c73535"/>
+<text transform="translate(283.0,475) rotate(45)" text-anchor="start" font-family="Arial" font-size="12">2016</text>
+<rect x="357.7" y="196.3" width="133.3" height="258.7" fill="#c73535"/>
+<text transform="translate(424.3,475) rotate(45)" text-anchor="start" font-family="Arial" font-size="12">2017</text>
+<rect x="499.0" y="134.8" width="133.3" height="320.2" fill="#c73535"/>
+<text transform="translate(565.7,475) rotate(45)" text-anchor="start" font-family="Arial" font-size="12">2018</text>
+<rect x="640.3" y="70.0" width="133.3" height="385.0" fill="#c73535"/>
+<text transform="translate(707.0,475) rotate(45)" text-anchor="start" font-family="Arial" font-size="12">2019</text>
+<rect x="781.7" y="439.7" width="133.3" height="15.3" fill="#c73535"/>
+<text transform="translate(848.3,475) rotate(45)" text-anchor="start" font-family="Arial" font-size="12">2020</text>
+<line x1="75" y1="276.8" x2="915" y2="276.8" stroke="black" stroke-width="2"/>
+<text x="910" y="268.8" text-anchor="end" font-family="Arial" font-size="14" fill="black">Average count: 385.2</text>
+<text transform="translate(24,262.5) rotate(-90)" text-anchor="middle" font-family="Arial" font-size="15">Movie count</text>
+</svg>
