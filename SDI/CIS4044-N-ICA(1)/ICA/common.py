@@ -1,4 +1,4 @@
-"""Common helpers for the Open-Meteo ICA application."""
+"""Common helpers."""
 
 from __future__ import annotations
 

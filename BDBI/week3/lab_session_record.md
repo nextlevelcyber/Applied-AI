@@ -127,6 +127,10 @@ Use `netflix_titles.csv` if building the full Power Query process from scratch, 
 - [x] Power BI file created and saved on the Windows cloud desktop.
 - [x] Model relationships checked in Power BI Model view.
 - [x] Word evidence log created and checked in Microsoft Word.
+- [x] Map visual built in Power BI (country vs count of movies, using `netflix_main_clean[country]` and Count of title).
+- [x] Bar chart built in Power BI (Average of duration_minutes by added_year, red columns, black average constant line).
+- [x] Genre slicer built in Power BI using `listed_in`.
+- [x] Director table built in Power BI (director vs Count of title, sorted descending - top result matches computed answer: Raul Campos, Jan Suter = 18).
 - [ ] Power BI screenshots inserted manually.
 - [x] Final dashboard evidence prepared using generated local charts and business answer table.
 
@@ -134,16 +138,20 @@ Use `netflix_titles.csv` if building the full Power Query process from scratch, 
 
 Attempted to use the Aliyun Wuying Windows desktop on 2026-06-27. The desktop is reachable, and Power BI is available there. The Wuying file transfer tool successfully uploaded `BDBI_week3_transfer.zip` to the Windows Downloads folder. User confirmed the transfer/extraction step is OK.
 
-Current cloud desktop state:
+Current cloud desktop state (updated 2026-07-01, end of session):
 
 - `C:\Users\admin\Desktop\AI\BDBI\week3\` is present after extraction.
-- Power BI Desktop is open and has loaded the three prepared CSV tables:
+- Power BI Desktop has the three prepared CSV tables loaded:
   - `netflix_main_clean`
   - `netflix_type`
   - `netflix_date`
-- The file has been saved in `C:\Users\admin\Desktop\AI\BDBI\week3\lab\` as `20260627.pbix`.
-- The intended descriptive name was `BDBI_week3_netflix_lab.pbix`, but the remote Windows input method interfered with English text entry. A numeric filename was used to save the work reliably.
+- The file is saved in `C:\Users\admin\Desktop\AI\BDBI\week3\lab\` as **`BDBI-week3-netflix-lab.pbix`** (renamed successfully; hyphens used instead of underscores). The old numeric `20260627.pbix` and a corrupted duplicate created mid-rename have both been deleted; this is now the single working file.
 - Power BI Model view confirmed two active one-to-one relationships using `show_id`.
-- macOS screenshot capture was blocked by system permission, so the Word evidence log includes a manual screenshot checklist instead of generated/fake screenshots.
+- Built and verified three report pages, renamed to lowercase tab names: `map`, `chart`, `dashboard` (Genre slicer + director ranking table).
+- Found and closed a stale duplicate Power BI window (a different, unrelated file open in a second instance) that was blocking file saves with a "file already open" error; the real file now saves normally.
+- **Text-entry bug identified and fixed:** the remote session's bulk `type` action gerbles typed text (letters and digits both come out wrong, e.g. digits become "a"). The reliable fix is to send **one key press at a time** (e.g. individual letter keys, `shift+<letter>` for capitals, `shift+minus` for a hyphen). Plain digit keys (`0`-`9`) additionally get silently swallowed by a stuck IME candidate state unless `Escape` is pressed immediately before the digit key - once `Escape` is sent first, the digit registers correctly. This combination (single `key` presses + `Escape` before digits) is now the confirmed reliable method for all text entry in this remote session, including Power BI's own fields and native Windows dialogs (Save As, Explorer rename).
+- `shift+minus` produces a hyphen "-", not an underscore, in this remote environment - hyphens are used as the word separator in filenames as a pragmatic workaround.
+- Screenshot capture: the computer-use tool used to control the remote session cannot save screenshot images to disk in this environment, so real Power BI screenshots still need to be captured and inserted manually (e.g. via Windows Snipping Tool on the remote desktop, then transferred back).
+- Clipboard paste between mac and the remote session does work, but with a long sync delay (observed roughly 20-30 minutes), so it is not practical for real-time text entry such as renaming.
 
-Next practical step on the cloud computer is only to manually capture/insert the Power BI screenshots if formal visual proof is required. The data import, model relationship check, saved PBIX, local charts, and written answers are complete.
+Next practical steps: capture real screenshots on the Windows cloud desktop (Snipping Tool or Win+Shift+S) for data import, Power Query steps, model view, and each of the three report pages, transfer them back, insert into `week3_evidence_log.docx`, and do a final sync/verification pass of `BDBI-week3-netflix-lab.pbix` against the Week 3 deliverable checklist.
