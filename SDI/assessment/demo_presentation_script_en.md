@@ -17,7 +17,7 @@ Phase 1 is SQL querying, worth 15%. Phase 2 is charting with Matplotlib, worth 1
 
 ## 3. Code architecture (\~40s)
 
-The code lives in the `ICA/` folder across five files: `common.py` holds shared logic such as database connection helpers and date validation; `phase_1.py` contains all the SQL query functions, including average annual temperature and seven-day precipitation by city, plus a bonus "wettest city per year" query built with the `RANK()` window function; `phase_2.py` uses Matplotlib to generate six charts; `phase_3.py` handles calling the API, parsing the response, and writing it to the database — I implemented a delete-then-insert approach for deduplication there; and `main.py` is the command-line entry point, exposing four subcommands: `demo`, `menu`, `charts`, and `update-weather`.
+The code lives in the `ICA/` folder across four files, all written as simple scripts of plain functions — no classes: `phase_1.py` contains all the SQL query functions, including average annual temperature and seven-day precipitation by city, plus a bonus "wettest city per year" query (it first lists the years, then for each year sorts cities by total precipitation and takes the top one); it also holds the shared helpers like the database connection and date validation, which the other phases import; `phase_2.py` uses Matplotlib to generate six charts; `phase_3.py` handles calling the API, parsing the response, and writing it to the database — I implemented a delete-then-insert approach for deduplication there; and `main.py` is the entry point: it opens an interactive menu by default, or runs everything at once with the `demo` or `charts` argument.
 
 ## 4. Database design (\~20s)
 
@@ -35,13 +35,13 @@ This is demo mode — it runs through the core Phase 1 queries, and you can see 
 
 This step calls the Phase 2 plotting functions and generates six charts into the `charts/` folder, including a precipitation trend chart and a temperature scatter plot — all drawn from real data in the database.
 
-【Run `python main.py update-weather`, showing a live fetch from Open-Meteo and the write-back to the database】
+【Run `python main.py` to open the menu, choose option 6, showing a live fetch from Open-Meteo and the write-back to the database】
 
 This is Phase 3 — it makes a real request to the Open-Meteo archive API, parses the returned daily-weather JSON, and writes it back to the database. If a record already exists, it deletes the old one first and inserts the new one, so there's no duplication.
 
 ## 6. Testing (\~30s)
 
-For testing, I wrote 15 unit tests covering the queries, the chart generation, and the API call plus storage logic across all three phases — the API test mocks the network request, and all 15 pass. On top of that, the report documents 13 black-box test cases covering normal, boundary, and invalid inputs, and those all pass as well.
+For testing, I wrote 14 unit tests covering the queries, the chart generation, and the API parsing plus storage logic across all three phases — the API tests use hand-made example data instead of real network requests, and all 14 pass. On top of that, the report documents 13 black-box test cases covering normal, boundary, and invalid inputs, and those all pass as well.
 
 ## 7. Design trade-offs and current status (\~30s)
 
@@ -57,5 +57,5 @@ That's the overall implementation and demo for my ICA. Thank you, and I'm happy 
 
 - Estimated total: about 5 minutes; the live-demo section (Part 5) is where actual command run-time adds variability, so it's the part most likely to run long.
 - If time is tight, Part 3 (Code architecture) and Part 7 (Design trade-offs) compress the most easily.
-- If asked for more detail: `get_city()` in `common.py` joins the `cities` and `countries` tables; the deduplication approach has no unique constraint, so concurrent writes could in theory still collide — a good answer to keep in reserve for "what would you improve with more time?".
+- If asked for more detail: `get_city()` in `phase_3.py` joins the `cities` and `countries` tables and returns a plain dictionary; the deduplication approach has no unique constraint, so concurrent writes could in theory still collide — a good answer to keep in reserve for "what would you improve with more time?".
 
