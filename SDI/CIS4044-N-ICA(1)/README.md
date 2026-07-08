@@ -2,18 +2,18 @@
 
 This project implements the three ICA programming phases for the Open-Meteo historical weather data task.
 
+The code is written in a simple script style: plain functions, no classes, and short English comments.
+
 ## Contents
 
-- `ICA/phase_1.py`: SQLite queries for countries, cities, temperature, precipitation, and extra analytical queries.
+- `ICA/phase_1.py`: SQLite queries for countries, cities, temperature, precipitation, and extra analytical queries. Also holds the shared helpers (database connection and date/year validation) that the other phases import.
 - `ICA/phase_2.py`: Matplotlib chart generation from the SQLite database.
 - `ICA/phase_3.py`: Open-Meteo archive API retrieval and SQLite storage.
-- `ICA/common.py`: shared connection, validation, and city helper logic.
-- `ICA/main.py`: single command-line/menu entry point.
-- `tests/test_weather_app.py`: automated regression tests.
+- `ICA/main.py`: simple menu entry point.
+- `tests/test_weather_app.py`: automated tests (no internet needed).
 - `charts/`: generated chart evidence.
 - `REPORT_AND_TESTING.xlsx`: report plus black-box testing appendix for submission.
 - `REPORT_AND_TESTING.md`: readable source copy of the report.
-- `PRESENTATION_NOTES_ZH.md`: short Chinese speaking notes for explaining the work.
 
 ## Dependencies
 
@@ -27,37 +27,39 @@ python3 -m pip install -r requirements.txt
 
 The phase-specific libraries are:
 
-- Phase 1: `sqlite3`.
+- Phase 1: `sqlite3` (comes with Python).
 - Phase 2: `sqlite3` and `matplotlib`.
 - Phase 3: `sqlite3` and `requests`.
 
-Small Python standard-library helpers are also used for validation, paths, typing, temporary test databases, and command-line handling. They do not replace the required ICA libraries; they support safer input handling and cleaner project structure.
-
 ## Running The Application
 
-Run the deterministic demo. This performs Phase 1 queries and generates sample Phase 2 charts without making a network request:
+All commands below are run from inside the `ICA` folder:
 
 ```bash
-python3 -m ICA.main demo
+cd ICA
 ```
 
-Run the interactive menu:
+Start the interactive menu:
 
 ```bash
-python3 -m ICA.main menu
+python3 main.py
+```
+
+Run the offline demo. This performs every Phase 1 query and generates the sample Phase 2 charts without making a network request:
+
+```bash
+python3 main.py demo
 ```
 
 Generate all chart evidence:
 
 ```bash
-python3 -m ICA.main charts
+python3 main.py charts
 ```
 
-Fetch Open-Meteo data and store it for an existing city:
+To fetch Open-Meteo data and store it for an existing city, use menu option 6.
 
-```bash
-python3 -m ICA.main update-weather 1 2024-01-01 2024-01-07
-```
+Each phase file can also be run on its own, for example `python3 phase_1.py`.
 
 City ids in the provided database:
 
@@ -70,7 +72,7 @@ City ids in the provided database:
 
 ## Chart Details
 
-The sample chart command creates:
+The chart commands create:
 
 | File | Chart purpose |
 | --- | --- |
@@ -83,9 +85,10 @@ The sample chart command creates:
 
 ## Running Tests
 
+Run from the project folder (the folder that contains `ICA` and `tests`):
+
 ```bash
 python3 -m unittest discover -s tests -v
 ```
 
-The tests cover Phase 1 query outputs, input validation, Phase 2 chart file creation, Phase 3 JSON parsing, network error handling, and database replacement writes. Phase 3 network tests use mocks so the test suite does not depend on the live Open-Meteo service.
-
+The tests cover Phase 1 query outputs, input validation, Phase 2 chart file creation, Phase 3 JSON parsing, and database replacement writes. The Phase 3 tests use hand-made example data instead of the live Open-Meteo service, so no internet connection is needed.

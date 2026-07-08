@@ -1,289 +1,304 @@
-"""Phase 2: Matplotlib charts generated from SQLite weather data."""
-
-from __future__ import annotations
+# Phase 2: draw charts from the database using matplotlib.
+#
+# Every chart function below does the same three steps:
+#   1. read the numbers it needs from the database
+#   2. build the chart with matplotlib
+#   3. save the chart as a PNG file in the charts folder
 
 import os
-from pathlib import Path
-
-os.environ.setdefault("MPLCONFIGDIR", str(Path(os.getenv("TMPDIR", "/tmp")) / "cis4044_matplotlib_cache"))
 
 import matplotlib
-
-matplotlib.use("Agg")
+matplotlib.use("Agg")  # draw charts in memory and save them as files (no window pops up)
 import matplotlib.pyplot as plt
 
-try:
-    from .common import (
-        DEFAULT_CHART_DIR,
-        DEFAULT_DB_PATH,
-        connect_database,
-        fetch_all,
-        validate_date,
-        validate_date_range,
-        validate_year,
-    )
-except ImportError:
-    from common import (  # type: ignore
-        DEFAULT_CHART_DIR,
-        DEFAULT_DB_PATH,
-        connect_database,
-        fetch_all,
-        validate_date,
-        validate_date_range,
-        validate_year,
-    )
+from phase_1 import (
+    PROJECT_FOLDER,
+    connect_database,
+    validate_date,
+    validate_date_range,
+    validate_year,
+)
+
+CHART_FOLDER = os.path.join(PROJECT_FOLDER, "charts")
 
 
-def _prepare_output(output_path: Path | str) -> Path:
-    path = Path(output_path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    return path
-
-
-def _save_chart(output_path: Path | str) -> Path:
-    path = _prepare_output(output_path)
+def save_chart(output_path):
+    # Save the current chart as a PNG file and close it.
+    folder = os.path.dirname(output_path)
+    if folder != "" and not os.path.exists(folder):
+        os.makedirs(folder)
     plt.tight_layout()
-    plt.savefig(path, dpi=150)
+    plt.savefig(output_path, dpi=150)
     plt.close()
-    print(f"Chart saved: {path}")
-    return path
+    print("Chart saved:", output_path)
+    return output_path
 
 
 def plot_seven_day_precipitation(connection, city_id, start_date, output_path=None):
-    """Create a bar chart showing daily precipitation for one city over 7 days."""
-
+    # Bar chart: daily precipitation for one city over 7 days.
     start_date = validate_date(start_date, "start_date")
-    output_path = output_path or DEFAULT_CHART_DIR / f"city_{city_id}_7_day_precipitation.png"
-    rows = fetch_all(
-        connection,
+    if output_path is None:
+        output_path = os.path.join(CHART_FOLDER, "01_7_day_precipitation.png")
+
+    rows = connection.execute(
         """
-        SELECT dwe.date, dwe.precipitation, cities.name AS city_name
-        FROM daily_weather_entries AS dwe
-        JOIN cities ON cities.id = dwe.city_id
-        WHERE dwe.city_id = ?
-          AND dwe.date BETWEEN ? AND date(?, '+6 day')
-        ORDER BY dwe.date
+        SELECT daily_weather_entries.date,
+               daily_weather_entries.precipitation,
+               cities.name AS city_name
+        FROM daily_weather_entries
+        JOIN cities ON cities.id = daily_weather_entries.city_id
+        WHERE daily_weather_entries.city_id = ?
+          AND daily_weather_entries.date BETWEEN ? AND date(?, '+6 day')
+        ORDER BY daily_weather_entries.date
         """,
         (city_id, start_date, start_date),
-    )
+    ).fetchall()
     if not rows:
-        raise ValueError("No weather records found for the requested city/date range")
+        raise ValueError("No weather records found for this city and date range")
+
+    dates = []
+    values = []
+    for row in rows:
+        dates.append(row["date"][5:])  # keep only the MM-DD part so labels stay short
+        values.append(row["precipitation"])
 
     plt.figure(figsize=(9, 5))
-    plt.bar([row["date"][5:] for row in rows], [row["precipitation"] for row in rows], color="#2f6f8f")
-    plt.title(f"7-Day Precipitation for {rows[0]['city_name']} from {start_date}")
+    plt.bar(dates, values, color="steelblue")
+    plt.title("7-Day Precipitation for " + rows[0]["city_name"] + " from " + start_date)
     plt.xlabel("Date")
     plt.ylabel("Precipitation (mm)")
-    plt.grid(axis="y", alpha=0.3)
-    return _save_chart(output_path)
+    plt.grid(axis="y", alpha=0.3)  # light horizontal grid lines
+    return save_chart(output_path)
 
 
 def plot_precipitation_for_cities(connection, city_ids, date_from, date_to, output_path=None):
-    """Create a comparison bar chart for selected cities over a date range."""
-
-    city_ids = [int(city_id) for city_id in city_ids]
+    # Bar chart: total precipitation for several cities in a date range.
     if not city_ids:
-        raise ValueError("at least one city id is required")
+        raise ValueError("at least one city id is needed")
     date_from, date_to = validate_date_range(date_from, date_to)
-    placeholders = ",".join("?" for _ in city_ids)
-    output_path = output_path or DEFAULT_CHART_DIR / "city_precipitation_comparison.png"
-    rows = fetch_all(
-        connection,
-        f"""
-        SELECT cities.name AS city_name,
-               SUM(dwe.precipitation) AS total_precipitation
-        FROM daily_weather_entries AS dwe
-        JOIN cities ON cities.id = dwe.city_id
-        WHERE dwe.city_id IN ({placeholders})
-          AND dwe.date BETWEEN ? AND ?
-        GROUP BY cities.id, cities.name
-        ORDER BY cities.name
-        """,
-        (*city_ids, date_from, date_to),
-    )
-    if not rows:
-        raise ValueError("No precipitation records found for the requested selection")
+    if output_path is None:
+        output_path = os.path.join(CHART_FOLDER, "02_city_precipitation_comparison.png")
+
+    # Run one small query per city. Simple, and fast enough
+    # for the few cities in this database.
+    names = []
+    totals = []
+    for city_id in city_ids:
+        row = connection.execute(
+            """
+            SELECT cities.name AS city_name,
+                   SUM(daily_weather_entries.precipitation) AS total_precipitation
+            FROM daily_weather_entries
+            JOIN cities ON cities.id = daily_weather_entries.city_id
+            WHERE daily_weather_entries.city_id = ?
+              AND daily_weather_entries.date BETWEEN ? AND ?
+            """,
+            (city_id, date_from, date_to),
+        ).fetchone()
+        # If the city has no data in this range, the sum comes back empty.
+        if row["city_name"] is not None:
+            names.append(row["city_name"])
+            totals.append(row["total_precipitation"])
+    if not names:
+        raise ValueError("No precipitation records found for these cities")
 
     plt.figure(figsize=(8, 5))
-    plt.bar([row["city_name"] for row in rows], [row["total_precipitation"] for row in rows], color="#7a5c99")
-    plt.title(f"Total Precipitation by City ({date_from} to {date_to})")
+    plt.bar(names, totals, color="purple")
+    plt.title("Total Precipitation by City (" + date_from + " to " + date_to + ")")
     plt.xlabel("City")
     plt.ylabel("Total precipitation (mm)")
     plt.grid(axis="y", alpha=0.3)
-    return _save_chart(output_path)
+    return save_chart(output_path)
 
 
 def plot_average_yearly_precipitation_by_country(connection, year, output_path=None):
-    """Create a country-level average precipitation bar chart for one year."""
-
+    # Bar chart: average daily precipitation for every country in one year.
     year = validate_year(year)
-    output_path = output_path or DEFAULT_CHART_DIR / f"country_average_precipitation_{year}.png"
-    rows = fetch_all(
-        connection,
+    if output_path is None:
+        output_path = os.path.join(CHART_FOLDER, "03_country_average_precipitation.png")
+
+    rows = connection.execute(
         """
         SELECT countries.name AS country_name,
-               AVG(dwe.precipitation) AS average_precipitation
-        FROM daily_weather_entries AS dwe
-        JOIN cities ON cities.id = dwe.city_id
+               AVG(daily_weather_entries.precipitation) AS average_precipitation
+        FROM daily_weather_entries
+        JOIN cities ON cities.id = daily_weather_entries.city_id
         JOIN countries ON countries.id = cities.country_id
-        WHERE strftime('%Y', dwe.date) = ?
+        WHERE strftime('%Y', daily_weather_entries.date) = ?
         GROUP BY countries.id, countries.name
         ORDER BY countries.name
         """,
         (str(year),),
-    )
+    ).fetchall()
     if not rows:
-        raise ValueError("No country precipitation records found for the requested year")
+        raise ValueError("No country precipitation records found for this year")
+
+    names = []
+    averages = []
+    for row in rows:
+        names.append(row["country_name"])
+        averages.append(row["average_precipitation"])
 
     plt.figure(figsize=(8, 5))
-    plt.bar([row["country_name"] for row in rows], [row["average_precipitation"] for row in rows], color="#48785f")
-    plt.title(f"Average Daily Precipitation by Country ({year})")
+    plt.bar(names, averages, color="seagreen")
+    plt.title("Average Daily Precipitation by Country (" + str(year) + ")")
     plt.xlabel("Country")
     plt.ylabel("Average daily precipitation (mm)")
     plt.grid(axis="y", alpha=0.3)
-    return _save_chart(output_path)
+    return save_chart(output_path)
 
 
 def plot_temperature_precipitation_grouped(connection, city_ids, date_from, date_to, output_path=None):
-    """Create grouped bars for min/max/mean temperature and precipitation by city."""
-
-    city_ids = [int(city_id) for city_id in city_ids]
+    # Grouped bar chart: min, mean, max temperature and precipitation per city.
     if not city_ids:
-        raise ValueError("at least one city id is required")
+        raise ValueError("at least one city id is needed")
     date_from, date_to = validate_date_range(date_from, date_to)
-    placeholders = ",".join("?" for _ in city_ids)
-    output_path = output_path or DEFAULT_CHART_DIR / "temperature_precipitation_grouped.png"
-    rows = fetch_all(
-        connection,
-        f"""
-        SELECT cities.name AS city_name,
-               AVG(dwe.min_temp) AS min_temp,
-               AVG(dwe.mean_temp) AS mean_temp,
-               AVG(dwe.max_temp) AS max_temp,
-               AVG(dwe.precipitation) AS precipitation
-        FROM daily_weather_entries AS dwe
-        JOIN cities ON cities.id = dwe.city_id
-        WHERE dwe.city_id IN ({placeholders})
-          AND dwe.date BETWEEN ? AND ?
-        GROUP BY cities.id, cities.name
-        ORDER BY cities.name
-        """,
-        (*city_ids, date_from, date_to),
-    )
-    if not rows:
-        raise ValueError("No records found for grouped chart")
+    if output_path is None:
+        output_path = os.path.join(CHART_FOLDER, "04_grouped_weather_averages.png")
 
-    labels = [row["city_name"] for row in rows]
-    x_positions = list(range(len(labels)))
-    width = 0.18
-    series = [
-        ("Min temp", [row["min_temp"] for row in rows], "#2f6f8f"),
-        ("Mean temp", [row["mean_temp"] for row in rows], "#48785f"),
-        ("Max temp", [row["max_temp"] for row in rows], "#b85c38"),
-        ("Precipitation", [row["precipitation"] for row in rows], "#7a5c99"),
-    ]
+    names = []
+    min_temps = []
+    mean_temps = []
+    max_temps = []
+    rain = []
+    for city_id in city_ids:
+        row = connection.execute(
+            """
+            SELECT cities.name AS city_name,
+                   AVG(daily_weather_entries.min_temp) AS min_temp,
+                   AVG(daily_weather_entries.mean_temp) AS mean_temp,
+                   AVG(daily_weather_entries.max_temp) AS max_temp,
+                   AVG(daily_weather_entries.precipitation) AS precipitation
+            FROM daily_weather_entries
+            JOIN cities ON cities.id = daily_weather_entries.city_id
+            WHERE daily_weather_entries.city_id = ?
+              AND daily_weather_entries.date BETWEEN ? AND ?
+            """,
+            (city_id, date_from, date_to),
+        ).fetchone()
+        if row["city_name"] is not None:
+            names.append(row["city_name"])
+            min_temps.append(row["min_temp"])
+            mean_temps.append(row["mean_temp"])
+            max_temps.append(row["max_temp"])
+            rain.append(row["precipitation"])
+    if not names:
+        raise ValueError("No records found for the grouped chart")
 
+    # Each city gets one position on the x axis (0, 1, 2, ...).
+    # The four bars are shifted a little left or right of that position
+    # so they sit side by side instead of on top of each other.
+    positions = list(range(len(names)))
+    width = 0.2
     plt.figure(figsize=(10, 5.5))
-    for index, (label, values, color) in enumerate(series):
-        offsets = [x + (index - 1.5) * width for x in x_positions]
-        plt.bar(offsets, values, width=width, label=label, color=color)
-    plt.xticks(x_positions, labels)
-    plt.title(f"Weather Averages by City ({date_from} to {date_to})")
+    plt.bar([p - 1.5 * width for p in positions], min_temps, width=width, label="Min temp", color="steelblue")
+    plt.bar([p - 0.5 * width for p in positions], mean_temps, width=width, label="Mean temp", color="seagreen")
+    plt.bar([p + 0.5 * width for p in positions], max_temps, width=width, label="Max temp", color="darkorange")
+    plt.bar([p + 1.5 * width for p in positions], rain, width=width, label="Precipitation", color="purple")
+    plt.xticks(positions, names)
+    plt.title("Weather Averages by City (" + date_from + " to " + date_to + ")")
     plt.xlabel("City")
     plt.ylabel("Average value")
     plt.legend()
     plt.grid(axis="y", alpha=0.3)
-    return _save_chart(output_path)
+    return save_chart(output_path)
 
 
 def plot_monthly_min_max_temperature(connection, city_id, year, month, output_path=None):
-    """Create a multi-line chart for daily min and max temperature in a month."""
-
+    # Line chart: daily min and max temperature for one city in one month.
     year = validate_year(year)
     month = int(month)
     if month < 1 or month > 12:
         raise ValueError("month must be between 1 and 12")
-    output_path = output_path or DEFAULT_CHART_DIR / f"city_{city_id}_temperature_{year}_{month:02d}.png"
-    rows = fetch_all(
-        connection,
+    if output_path is None:
+        output_path = os.path.join(CHART_FOLDER, "05_monthly_min_max_temperature.png")
+
+    month_text = f"{month:02d}"  # e.g. 7 becomes "07" to match the date format
+    rows = connection.execute(
         """
-        SELECT dwe.date, dwe.min_temp, dwe.max_temp, cities.name AS city_name
-        FROM daily_weather_entries AS dwe
-        JOIN cities ON cities.id = dwe.city_id
-        WHERE dwe.city_id = ?
-          AND strftime('%Y', dwe.date) = ?
-          AND strftime('%m', dwe.date) = ?
-        ORDER BY dwe.date
+        SELECT daily_weather_entries.date,
+               daily_weather_entries.min_temp,
+               daily_weather_entries.max_temp,
+               cities.name AS city_name
+        FROM daily_weather_entries
+        JOIN cities ON cities.id = daily_weather_entries.city_id
+        WHERE daily_weather_entries.city_id = ?
+          AND strftime('%Y', daily_weather_entries.date) = ?
+          AND strftime('%m', daily_weather_entries.date) = ?
+        ORDER BY daily_weather_entries.date
         """,
-        (city_id, str(year), f"{month:02d}"),
-    )
+        (city_id, str(year), month_text),
+    ).fetchall()
     if not rows:
-        raise ValueError("No temperature records found for the requested month")
+        raise ValueError("No temperature records found for this month")
+
+    days = []
+    min_temps = []
+    max_temps = []
+    for row in rows:
+        days.append(row["date"][8:])  # keep only the DD part of the date
+        min_temps.append(row["min_temp"])
+        max_temps.append(row["max_temp"])
 
     plt.figure(figsize=(10, 5))
-    dates = [row["date"][8:] for row in rows]
-    plt.plot(dates, [row["min_temp"] for row in rows], marker="o", linewidth=1.5, label="Min temp")
-    plt.plot(dates, [row["max_temp"] for row in rows], marker="o", linewidth=1.5, label="Max temp")
-    plt.title(f"Daily Min/Max Temperature for {rows[0]['city_name']} ({year}-{month:02d})")
+    plt.plot(days, min_temps, marker="o", label="Min temp")
+    plt.plot(days, max_temps, marker="o", label="Max temp")
+    plt.title("Daily Min/Max Temperature for " + rows[0]["city_name"] + " (" + str(year) + "-" + month_text + ")")
     plt.xlabel("Day")
     plt.ylabel("Temperature (C)")
     plt.legend()
     plt.grid(alpha=0.3)
-    return _save_chart(output_path)
+    return save_chart(output_path)
 
 
 def plot_temperature_vs_rainfall_scatter(connection, date_from, date_to, output_path=None):
-    """Create a scatter plot of average temperature against rainfall by city."""
-
+    # Scatter plot: average temperature against average rainfall, one dot per city.
     date_from, date_to = validate_date_range(date_from, date_to)
-    output_path = output_path or DEFAULT_CHART_DIR / "temperature_vs_rainfall_scatter.png"
-    rows = fetch_all(
-        connection,
+    if output_path is None:
+        output_path = os.path.join(CHART_FOLDER, "06_temperature_vs_rainfall.png")
+
+    rows = connection.execute(
         """
         SELECT cities.name AS city_name,
-               AVG(dwe.mean_temp) AS average_temperature,
-               AVG(dwe.precipitation) AS average_precipitation
-        FROM daily_weather_entries AS dwe
-        JOIN cities ON cities.id = dwe.city_id
-        WHERE dwe.date BETWEEN ? AND ?
+               AVG(daily_weather_entries.mean_temp) AS average_temperature,
+               AVG(daily_weather_entries.precipitation) AS average_precipitation
+        FROM daily_weather_entries
+        JOIN cities ON cities.id = daily_weather_entries.city_id
+        WHERE daily_weather_entries.date BETWEEN ? AND ?
         GROUP BY cities.id, cities.name
         ORDER BY cities.name
         """,
         (date_from, date_to),
-    )
+    ).fetchall()
     if not rows:
-        raise ValueError("No records found for scatter chart")
+        raise ValueError("No records found for the scatter chart")
 
     plt.figure(figsize=(8, 5.5))
-    plt.scatter(
-        [row["average_temperature"] for row in rows],
-        [row["average_precipitation"] for row in rows],
-        color="#b85c38",
-        s=90,
-    )
     for row in rows:
+        plt.scatter(row["average_temperature"], row["average_precipitation"], s=90, color="darkorange")
+        # Write the city name next to its dot.
         plt.annotate(row["city_name"], (row["average_temperature"], row["average_precipitation"]))
-    plt.title(f"Average Temperature vs Rainfall ({date_from} to {date_to})")
+    plt.title("Average Temperature vs Rainfall (" + date_from + " to " + date_to + ")")
     plt.xlabel("Average mean temperature (C)")
     plt.ylabel("Average precipitation (mm)")
     plt.grid(alpha=0.3)
-    return _save_chart(output_path)
+    return save_chart(output_path)
 
 
-def generate_all_sample_charts(connection, output_dir=DEFAULT_CHART_DIR):
-    """Generate a representative chart set for assessment evidence."""
-
-    output_dir = Path(output_dir)
-    return [
-        plot_seven_day_precipitation(connection, 1, "2024-01-01", output_dir / "01_7_day_precipitation.png"),
-        plot_precipitation_for_cities(connection, [1, 2, 3, 4], "2024-01-01", "2024-01-31", output_dir / "02_city_precipitation_comparison.png"),
-        plot_average_yearly_precipitation_by_country(connection, 2024, output_dir / "03_country_average_precipitation.png"),
-        plot_temperature_precipitation_grouped(connection, [1, 2, 3, 4], "2024-06-01", "2024-06-30", output_dir / "04_grouped_weather_averages.png"),
-        plot_monthly_min_max_temperature(connection, 1, 2024, 7, output_dir / "05_monthly_min_max_temperature.png"),
-        plot_temperature_vs_rainfall_scatter(connection, "2024-01-01", "2024-12-31", output_dir / "06_temperature_vs_rainfall.png"),
-    ]
+def generate_all_charts(connection):
+    # Create every sample chart used as evidence for the report.
+    charts = []
+    charts.append(plot_seven_day_precipitation(connection, 1, "2024-01-01"))
+    charts.append(plot_precipitation_for_cities(connection, [1, 2, 3, 4], "2024-01-01", "2024-01-31"))
+    charts.append(plot_average_yearly_precipitation_by_country(connection, 2024))
+    charts.append(plot_temperature_precipitation_grouped(connection, [1, 2, 3, 4], "2024-06-01", "2024-06-30"))
+    charts.append(plot_monthly_min_max_temperature(connection, 1, 2024, 7))
+    charts.append(plot_temperature_vs_rainfall_scatter(connection, "2024-01-01", "2024-12-31"))
+    return charts
 
 
+# Running this file directly creates all the sample charts.
 if __name__ == "__main__":
-    with connect_database(DEFAULT_DB_PATH) as conn:
-        generate_all_sample_charts(conn)
+    connection = connect_database()
+    generate_all_charts(connection)
+    connection.close()
