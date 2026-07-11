@@ -1,0 +1,632 @@
+{
+  "rows": 13297,
+  "total_sales": 3245005.41878,
+  "total_profit": 399318.85757999995,
+  "profit_margin": 12.305645324010856,
+  "orders": 6717,
+  "order_lines": 13297,
+  "quantity": 45986,
+  "customers": 1434,
+  "products": 6984,
+  "countries": 135,
+  "avg_discount": 14.344032488531248,
+  "avg_ship_days": 3.575392945777243,
+  "avg_order_value": 483.1033822807801,
+  "date_min": "2011-01-01",
+  "date_max": "2014-12-12",
+  "by_market": [
+    {
+      "Market": "APAC",
+      "Sales": 944215.97,
+      "Profit": 124698.8,
+      "Qty": 10657,
+      "Margin%": 13.21
+    },
+    {
+      "Market": "EU",
+      "Sales": 730346.52,
+      "Profit": 103978.83,
+      "Qty": 9531,
+      "Margin%": 14.24
+    },
+    {
+      "Market": "US",
+      "Sales": 621203.6,
+      "Profit": 84557.22,
+      "Qty": 9985,
+      "Margin%": 13.61
+    },
+    {
+      "Market": "LATAM",
+      "Sales": 521751.84,
+      "Profit": 45985.02,
+      "Qty": 9746,
+      "Margin%": 8.81
+    },
+    {
+      "Market": "EMEA",
+      "Sales": 216563.29,
+      "Profit": 13512.64,
+      "Qty": 3191,
+      "Margin%": 6.24
+    },
+    {
+      "Market": "Africa",
+      "Sales": 190583.8,
+      "Profit": 21449.83,
+      "Qty": 2647,
+      "Margin%": 11.25
+    },
+    {
+      "Market": "Canada",
+      "Sales": 20340.39,
+      "Profit": 5136.51,
+      "Qty": 229,
+      "Margin%": 25.25
+    }
+  ],
+  "by_category": [
+    {
+      "Category": "Technology",
+      "Sales": 1240987.19,
+      "Profit": 184706.94,
+      "Qty": 9114,
+      "Margin%": 14.88
+    },
+    {
+      "Category": "Furniture",
+      "Sales": 1013807.4,
+      "Profit": 79196.56,
+      "Qty": 8779,
+      "Margin%": 7.81
+    },
+    {
+      "Category": "Office Supplies",
+      "Sales": 990210.82,
+      "Profit": 135415.37,
+      "Qty": 28093,
+      "Margin%": 13.68
+    }
+  ],
+  "by_segment": [
+    {
+      "Segment": "Consumer",
+      "Sales": 1656256.73,
+      "Profit": 197283.59,
+      "Qty": 24048,
+      "Margin%": 11.91
+    },
+    {
+      "Segment": "Corporate",
+      "Sales": 1001714.38,
+      "Profit": 124960.52,
+      "Qty": 13671,
+      "Margin%": 12.47
+    },
+    {
+      "Segment": "Home Office",
+      "Sales": 587034.32,
+      "Profit": 77074.75,
+      "Qty": 8267,
+      "Margin%": 13.13
+    }
+  ],
+  "by_subcat": [
+    {
+      "Sub-Category": "Phones",
+      "Sales": 408990.02,
+      "Profit": 48300.17,
+      "Qty": 2968,
+      "Margin%": 11.81
+    },
+    {
+      "Sub-Category": "Copiers",
+      "Sales": 397811.58,
+      "Profit": 78575.0,
+      "Qty": 1931,
+      "Margin%": 19.75
+    },
+    {
+      "Sub-Category": "Chairs",
+      "Sales": 387880.71,
+      "Profit": 38692.08,
+      "Qty": 3147,
+      "Margin%": 9.98
+    },
+    {
+      "Sub-Category": "Bookcases",
+      "Sales": 345657.33,
+      "Profit": 40049.0,
+      "Qty": 2047,
+      "Margin%": 11.59
+    },
+    {
+      "Sub-Category": "Appliances",
+      "Sales": 295047.42,
+      "Profit": 40830.34,
+      "Qty": 1675,
+      "Margin%": 13.84
+    },
+    {
+      "Sub-Category": "Storage",
+      "Sales": 280838.1,
+      "Profit": 27520.72,
+      "Qty": 4325,
+      "Margin%": 9.8
+    },
+    {
+      "Sub-Category": "Machines",
+      "Sales": 232818.02,
+      "Profit": 21470.15,
+      "Qty": 1359,
+      "Margin%": 9.22
+    },
+    {
+      "Sub-Category": "Accessories",
+      "Sales": 201367.58,
+      "Profit": 36361.62,
+      "Qty": 2856,
+      "Margin%": 18.06
+    },
+    {
+      "Sub-Category": "Tables",
+      "Sales": 186242.03,
+      "Profit": -11031.74,
+      "Qty": 793,
+      "Margin%": -5.92
+    },
+    {
+      "Sub-Category": "Binders",
+      "Sales": 103755.56,
+      "Profit": 15496.47,
+      "Qty": 5591,
+      "Margin%": 14.94
+    },
+    {
+      "Sub-Category": "Art",
+      "Sales": 100082.18,
+      "Profit": 16401.05,
+      "Qty": 4297,
+      "Margin%": 16.39
+    },
+    {
+      "Sub-Category": "Furnishings",
+      "Sales": 94027.34,
+      "Profit": 11487.21,
+      "Qty": 2792,
+      "Margin%": 12.22
+    },
+    {
+      "Sub-Category": "Paper",
+      "Sales": 62635.04,
+      "Profit": 14978.37,
+      "Qty": 3355,
+      "Margin%": 23.91
+    },
+    {
+      "Sub-Category": "Supplies",
+      "Sales": 59906.65,
+      "Profit": 4610.27,
+      "Qty": 2051,
+      "Margin%": 7.7
+    },
+    {
+      "Sub-Category": "Envelopes",
+      "Sales": 47473.74,
+      "Profit": 8808.44,
+      "Qty": 2276,
+      "Margin%": 18.55
+    },
+    {
+      "Sub-Category": "Fasteners",
+      "Sales": 22262.92,
+      "Profit": 2973.45,
+      "Qty": 2215,
+      "Margin%": 13.36
+    },
+    {
+      "Sub-Category": "Labels",
+      "Sales": 18209.19,
+      "Profit": 3796.25,
+      "Qty": 2308,
+      "Margin%": 20.85
+    }
+  ],
+  "top_subcat_profit": [
+    {
+      "Sub-Category": "Copiers",
+      "Sales": 397811.58,
+      "Profit": 78575.0,
+      "Qty": 1931,
+      "Margin%": 19.75
+    },
+    {
+      "Sub-Category": "Phones",
+      "Sales": 408990.02,
+      "Profit": 48300.17,
+      "Qty": 2968,
+      "Margin%": 11.81
+    },
+    {
+      "Sub-Category": "Appliances",
+      "Sales": 295047.42,
+      "Profit": 40830.34,
+      "Qty": 1675,
+      "Margin%": 13.84
+    },
+    {
+      "Sub-Category": "Bookcases",
+      "Sales": 345657.33,
+      "Profit": 40049.0,
+      "Qty": 2047,
+      "Margin%": 11.59
+    },
+    {
+      "Sub-Category": "Chairs",
+      "Sales": 387880.71,
+      "Profit": 38692.08,
+      "Qty": 3147,
+      "Margin%": 9.98
+    }
+  ],
+  "worst_subcat_profit": [
+    {
+      "Sub-Category": "Envelopes",
+      "Sales": 47473.74,
+      "Profit": 8808.44,
+      "Qty": 2276,
+      "Margin%": 18.55
+    },
+    {
+      "Sub-Category": "Supplies",
+      "Sales": 59906.65,
+      "Profit": 4610.27,
+      "Qty": 2051,
+      "Margin%": 7.7
+    },
+    {
+      "Sub-Category": "Labels",
+      "Sales": 18209.19,
+      "Profit": 3796.25,
+      "Qty": 2308,
+      "Margin%": 20.85
+    },
+    {
+      "Sub-Category": "Fasteners",
+      "Sales": 22262.92,
+      "Profit": 2973.45,
+      "Qty": 2215,
+      "Margin%": 13.36
+    },
+    {
+      "Sub-Category": "Tables",
+      "Sales": 186242.03,
+      "Profit": -11031.74,
+      "Qty": 793,
+      "Margin%": -5.92
+    }
+  ],
+  "by_shipmode": [
+    {
+      "ShipModeKey": "First Class",
+      "Sales": 597272.6,
+      "Orders": 1270
+    },
+    {
+      "ShipModeKey": "Same Day",
+      "Sales": 260797.73,
+      "Orders": 526
+    },
+    {
+      "ShipModeKey": "Second Class",
+      "Sales": 703953.44,
+      "Orders": 1443
+    },
+    {
+      "ShipModeKey": "Standard Class",
+      "Sales": 1682981.65,
+      "Orders": 3515
+    }
+  ],
+  "monthly": [
+    {
+      "m": "2011-01-01",
+      "Sales": 31173.39,
+      "Profit": 5830.77
+    },
+    {
+      "m": "2011-02-01",
+      "Sales": 15968.16,
+      "Profit": 1397.42
+    },
+    {
+      "m": "2011-03-01",
+      "Sales": 37948.71,
+      "Profit": 3731.76
+    },
+    {
+      "m": "2011-04-01",
+      "Sales": 39545.15,
+      "Profit": 5446.9
+    },
+    {
+      "m": "2011-05-01",
+      "Sales": 37083.87,
+      "Profit": 6239.04
+    },
+    {
+      "m": "2011-06-01",
+      "Sales": 69494.74,
+      "Profit": 8349.56
+    },
+    {
+      "m": "2011-07-01",
+      "Sales": 16111.53,
+      "Profit": -51.97
+    },
+    {
+      "m": "2011-08-01",
+      "Sales": 56537.87,
+      "Profit": 5730.87
+    },
+    {
+      "m": "2011-09-01",
+      "Sales": 71993.08,
+      "Profit": 7419.34
+    },
+    {
+      "m": "2011-10-01",
+      "Sales": 50584.35,
+      "Profit": 7481.5
+    },
+    {
+      "m": "2011-11-01",
+      "Sales": 103902.37,
+      "Profit": 13833.4
+    },
+    {
+      "m": "2011-12-01",
+      "Sales": 75397.36,
+      "Profit": 11353.49
+    },
+    {
+      "m": "2012-01-01",
+      "Sales": 27680.91,
+      "Profit": 522.78
+    },
+    {
+      "m": "2012-02-01",
+      "Sales": 32560.7,
+      "Profit": 5486.42
+    },
+    {
+      "m": "2012-03-01",
+      "Sales": 45458.59,
+      "Profit": 4657.41
+    },
+    {
+      "m": "2012-04-01",
+      "Sales": 34900.64,
+      "Profit": 281.02
+    },
+    {
+      "m": "2012-05-01",
+      "Sales": 46961.3,
+      "Profit": 8087.31
+    },
+    {
+      "m": "2012-06-01",
+      "Sales": 61091.05,
+      "Profit": 7209.17
+    },
+    {
+      "m": "2012-07-01",
+      "Sales": 42665.69,
+      "Profit": 4396.37
+    },
+    {
+      "m": "2012-08-01",
+      "Sales": 89008.07,
+      "Profit": 16154.54
+    },
+    {
+      "m": "2012-09-01",
+      "Sales": 69717.83,
+      "Profit": 7271.08
+    },
+    {
+      "m": "2012-10-01",
+      "Sales": 69164.49,
+      "Profit": 9188.93
+    },
+    {
+      "m": "2012-11-01",
+      "Sales": 82783.41,
+      "Profit": 8730.2
+    },
+    {
+      "m": "2012-12-01",
+      "Sales": 93058.96,
+      "Profit": 9384.76
+    },
+    {
+      "m": "2013-01-01",
+      "Sales": 60996.99,
+      "Profit": 9591.53
+    },
+    {
+      "m": "2013-02-01",
+      "Sales": 57416.36,
+      "Profit": 7488.18
+    },
+    {
+      "m": "2013-03-01",
+      "Sales": 60755.22,
+      "Profit": 7933.06
+    },
+    {
+      "m": "2013-04-01",
+      "Sales": 49015.66,
+      "Profit": 7660.46
+    },
+    {
+      "m": "2013-05-01",
+      "Sales": 58835.03,
+      "Profit": 7164.78
+    },
+    {
+      "m": "2013-06-01",
+      "Sales": 98078.88,
+      "Profit": 13606.58
+    },
+    {
+      "m": "2013-07-01",
+      "Sales": 67482.0,
+      "Profit": 8227.97
+    },
+    {
+      "m": "2013-08-01",
+      "Sales": 69283.81,
+      "Profit": 6601.37
+    },
+    {
+      "m": "2013-09-01",
+      "Sales": 91327.39,
+      "Profit": 12230.59
+    },
+    {
+      "m": "2013-10-01",
+      "Sales": 90360.23,
+      "Profit": 16693.24
+    },
+    {
+      "m": "2013-11-01",
+      "Sales": 89875.92,
+      "Profit": 11460.95
+    },
+    {
+      "m": "2013-12-01",
+      "Sales": 99338.89,
+      "Profit": 13417.44
+    },
+    {
+      "m": "2014-01-01",
+      "Sales": 51355.88,
+      "Profit": 4698.11
+    },
+    {
+      "m": "2014-02-01",
+      "Sales": 37065.57,
+      "Profit": 4357.93
+    },
+    {
+      "m": "2014-03-01",
+      "Sales": 43225.77,
+      "Profit": 3982.74
+    },
+    {
+      "m": "2014-04-01",
+      "Sales": 63070.15,
+      "Profit": 5198.51
+    },
+    {
+      "m": "2014-05-01",
+      "Sales": 66885.02,
+      "Profit": 4971.35
+    },
+    {
+      "m": "2014-06-01",
+      "Sales": 97730.91,
+      "Profit": 10958.68
+    },
+    {
+      "m": "2014-07-01",
+      "Sales": 71868.42,
+      "Profit": 9380.28
+    },
+    {
+      "m": "2014-08-01",
+      "Sales": 123201.53,
+      "Profit": 18001.92
+    },
+    {
+      "m": "2014-09-01",
+      "Sales": 136330.11,
+      "Profit": 20532.94
+    },
+    {
+      "m": "2014-10-01",
+      "Sales": 114605.75,
+      "Profit": 14956.64
+    },
+    {
+      "m": "2014-11-01",
+      "Sales": 115131.9,
+      "Profit": 7570.46
+    },
+    {
+      "m": "2014-12-01",
+      "Sales": 130975.84,
+      "Profit": 14501.08
+    }
+  ],
+  "by_year": [
+    {
+      "Year": 2011,
+      "Sales": 605740.57,
+      "Profit": 76762.09,
+      "Margin%": 12.67
+    },
+    {
+      "Year": 2012,
+      "Sales": 695051.62,
+      "Profit": 81369.99,
+      "Margin%": 11.71
+    },
+    {
+      "Year": 2013,
+      "Sales": 892766.38,
+      "Profit": 122076.15,
+      "Margin%": 13.67
+    },
+    {
+      "Year": 2014,
+      "Sales": 1051446.85,
+      "Profit": 119110.63,
+      "Margin%": 11.33
+    }
+  ],
+  "disc_profit_corr": -0.31254405451156975,
+  "disc_bands": [
+    {
+      "Band": "0%",
+      "Profit": 472721.86,
+      "Sales": 1815620.69,
+      "Lines": 7504
+    },
+    {
+      "Band": "1-20%",
+      "Profit": 128415.11,
+      "Sales": 937442.63,
+      "Lines": 2849
+    },
+    {
+      "Band": "21-40%",
+      "Profit": -52096.99,
+      "Sales": 292029.03,
+      "Lines": 1196
+    },
+    {
+      "Band": "41-60%",
+      "Profit": -94296.01,
+      "Sales": 159131.87,
+      "Lines": 1187
+    },
+    {
+      "Band": "61-100%",
+      "Profit": -55425.1,
+      "Sales": 40781.2,
+      "Lines": 561
+    }
+  ]
+}
