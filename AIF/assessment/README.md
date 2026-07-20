@@ -35,11 +35,11 @@ studentID_lastname_firstname_solution.py
 
 ## Assessment Breakdown
 
-| Area | Points |
-| --- | ---: |
-| Systematic review of relevant scientific literature | 40 |
-| Critical evaluation and discussion of AI technique application | 40 |
-| Commercial risks and professional issues | 20 |
+| Area                                                           | Points |
+| -------------------------------------------------------------- | -----: |
+| Systematic review of relevant scientific literature            |     40 |
+| Critical evaluation and discussion of AI technique application |     40 |
+| Commercial risks and professional issues                       |     20 |
 
 ## Working Notes
 
